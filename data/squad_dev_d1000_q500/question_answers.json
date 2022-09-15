@@ -1,0 +1,4007 @@
+{
+    "dataset_name": "squad_dev_1000_500",
+    "dataset_uuid": "604ef4d1-c6b8-4bf6-806e-5cfa9c8be10d",
+    "dataset_type": "question_answers",
+    "questions": [
+        {
+            "uuid": "67320882-d7b4-4a4a-8bf3-b2de71278a23",
+            "question": "What are both Branko Milanovic and Joseph Stiglitz?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "51761600-e7ce-4871-baf8-7af3cfcc9c43"
+            ]
+        },
+        {
+            "uuid": "d4b5be39-dabb-4368-9ae1-6bc9d4d2a7f7",
+            "question": "Where have herbivorous fishes been seen feeding on gelatinous zooplankton?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "8d14728e-dd98-4d7b-ba74-49258da1f0ec"
+            ]
+        },
+        {
+            "uuid": "70114b76-dd18-45e7-9fd9-93ba9b130b32",
+            "question": "Turtles and jellyfish can eat large quantities of what?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "8d14728e-dd98-4d7b-ba74-49258da1f0ec"
+            ]
+        },
+        {
+            "uuid": "4fd9cf61-5b2f-437d-95c5-6574f747fea9",
+            "question": "What service did BSkyB chare additional subscription fees for?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c4dbe9ae-42dc-4ff6-a7de-4b6487352b92"
+            ]
+        },
+        {
+            "uuid": "6fe76373-557a-4699-ae6e-2c0d7df20cb8",
+            "question": "What replaced the Sky+Box?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c4dbe9ae-42dc-4ff6-a7de-4b6487352b92"
+            ]
+        },
+        {
+            "uuid": "c6fcc404-aa4f-4d6b-be00-1bdc00b75a03",
+            "question": "What is the Norman architecture idiom?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "4e62b051-c520-460a-b1d6-6ffadb3aa324"
+            ]
+        },
+        {
+            "uuid": "3bd727d9-a91a-4cbc-bdbe-cc35ebd6374b",
+            "question": "How many bodies did Public Health England exhume? ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d083346e-f5e0-4206-ac57-6bdd1c0f6c9e"
+            ]
+        },
+        {
+            "uuid": "e8bcfba2-c3c6-434a-a5b9-3db73acb0920",
+            "question": "When the recovery between the widening gap between the richest citizens and rest of the nation slow?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "bc580950-f8a9-4306-96c9-f9345656e404"
+            ]
+        },
+        {
+            "uuid": "5f458be9-337d-49e4-b5e2-29d33486c0fb",
+            "question": "What happens first if a Directive's deadline for implementation is not met?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d0d67cf3-f8dc-48ea-99e5-f8c64ff83803"
+            ]
+        },
+        {
+            "uuid": "f96a892a-a6e5-4862-bc68-b8ae41c06ad2",
+            "question": "Why did natural sedimentation by the Rhine compensate the transgression bby the sea?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "5453add4-53b9-43f9-9419-ee646e5908f0"
+            ]
+        },
+        {
+            "uuid": "e5eb4170-29c9-4bf8-b91c-2a81fdf5ad55",
+            "question": "What do some researchers believe is the earliest-diverging animal phylum is?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "9d18b8d8-b18f-4c59-8356-3c88d29c40a0"
+            ]
+        },
+        {
+            "uuid": "72cefa17-4b91-4623-a941-18057b7c3697",
+            "question": "Some people describe what between individuals or groups as imperialism or colonialism?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "81529564-5339-41d9-8718-f24b7ffa149e"
+            ]
+        },
+        {
+            "uuid": "d2aef052-0939-4959-98d0-d39373e07bfb",
+            "question": "What type of insect employs the use of prime numbers in its evolutionary strategy?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "0db6702c-fa8d-4900-8e3d-f0f125316639"
+            ]
+        },
+        {
+            "uuid": "0a5707fd-5703-4a76-8bb3-def832fa2aca",
+            "question": "In what state is oxygen shipped in bulk?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "541d1def-ccf9-4e2b-9162-de99e5119e06"
+            ]
+        },
+        {
+            "uuid": "732b879e-2052-496a-a79f-4bcd7a1cc4e5",
+            "question": "What should be the main goal of not using punishment in a just system?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c09b199b-0e94-46c2-96fc-a67b41240e84"
+            ]
+        },
+        {
+            "uuid": "a36432b3-9903-4a05-acf5-efe99fd4bec1",
+            "question": "Of what form are Mersenne primes?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "6b84e1c5-2860-4068-a51e-f20294ba9829"
+            ]
+        },
+        {
+            "uuid": "aacc66af-92a6-474c-b766-6d1a3e2e8e0f",
+            "question": "Where had the Mongol capital been before Kublai moved it?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "02385d8b-81d6-4e08-ae62-c5f317191df5"
+            ]
+        },
+        {
+            "uuid": "9aa4c0f9-6eeb-45a7-82d0-e9797c574e8b",
+            "question": "When did Kublai move the Mongol capital?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "02385d8b-81d6-4e08-ae62-c5f317191df5"
+            ]
+        },
+        {
+            "uuid": "7094c57c-d634-4efe-8a37-f4cb2fde04de",
+            "question": "How many people did the Islamic State control the territory of as of March 2015?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "1045ca5a-9c7d-40d7-b874-484bd3c06e76"
+            ]
+        },
+        {
+            "uuid": "1a9da8a9-2152-43a4-a993-6ee8d3957cd3",
+            "question": "What does the Islamic State lack from the international community?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "1045ca5a-9c7d-40d7-b874-484bd3c06e76"
+            ]
+        },
+        {
+            "uuid": "1af58125-0be2-43ca-923b-fa8b5fcebef7",
+            "question": "When was there an attempt to reform the law of the EU?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "e3d64151-03e1-42be-a7fb-1b4827d0321d"
+            ]
+        },
+        {
+            "uuid": "e26371b7-709a-41e3-94a9-8bd926a70e5b",
+            "question": "What was an additional projected effect of the attempted reform?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "e3d64151-03e1-42be-a7fb-1b4827d0321d"
+            ]
+        },
+        {
+            "uuid": "db912647-f13d-4712-8173-944741eb55e6",
+            "question": "Who captured Fort Beausejour?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "297a2a8a-2615-4c5c-b194-4f72958c653e"
+            ]
+        },
+        {
+            "uuid": "ed72bc7f-f5d5-4f27-8a39-2c93c5a41ffe",
+            "question": "What is heralded by the sounding of the division bell?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "585c3d28-9b14-4732-904b-dad67219648f"
+            ]
+        },
+        {
+            "uuid": "cbb6de87-f7af-4112-bba1-b456ccd56cf7",
+            "question": "Turing machines are commonly employed to define what? ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ae4c01cf-804c-4b92-96cd-01e3f377337c"
+            ]
+        },
+        {
+            "uuid": "7e9e472f-d4ec-4785-bf9a-ba269454f704",
+            "question": "What is an important factor contributing to inequality for individuals?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "cd3d0a13-8ba8-47de-a988-4495f12d36dc"
+            ]
+        },
+        {
+            "uuid": "6dd86acf-4224-41bd-a2f8-3f58b369ce8b",
+            "question": "Who patented a steam engine in 1781?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "32ffefac-052b-4b6d-ac44-a25ef360dd5d"
+            ]
+        },
+        {
+            "uuid": "812a1a0d-d580-4b21-ac48-a9e84575a064",
+            "question": "How many campuses does the California State University have?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "7019cee1-803c-46f2-a1ad-e0fc7a68f7d4"
+            ]
+        },
+        {
+            "uuid": "3fa618d3-491a-428c-9f6e-4cdc2ad53a3e",
+            "question": "Working versions of 3D-printing building technology are already printing how much building material per hour?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "5879f6be-7747-43e5-86d1-4df9947c4092"
+            ]
+        },
+        {
+            "uuid": "6b62234e-7f54-4dd8-b5dc-c94473a49dcb",
+            "question": "If you were to take a train west or south out of the city of Fresno, which railroad would you take?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "b5d61a22-3d5a-4a55-969d-e77d2b7deee3"
+            ]
+        },
+        {
+            "uuid": "abb3fcc3-2940-4bfa-a658-04a151e19fbc",
+            "question": "How man people gather along the banks of the Vistula for the Wianki festival?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c4ec0cdf-00bc-4ca2-80a9-1a1ebfd17141"
+            ]
+        },
+        {
+            "uuid": "f0890f75-fc20-4b8c-9787-c881e4740da6",
+            "question": "What civilization was the first known to clearly study prime numbers?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f3c51029-6e5c-4daa-aee5-4ef98d7322d9"
+            ]
+        },
+        {
+            "uuid": "2d652b9f-9f61-46b9-9745-cf38f118db6d",
+            "question": "What is a notable application of injectors today?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "bc134662-8f51-4451-b2c6-a99594cca413"
+            ]
+        },
+        {
+            "uuid": "302e4ccf-e456-41a3-a1a8-4fb9bc64d931",
+            "question": "Who leads the Student Government?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "30bfa367-1799-4bce-a25d-3fc231945db9"
+            ]
+        },
+        {
+            "uuid": "d49ecf13-348e-45ab-8978-18903f9db7c7",
+            "question": "What were European countries doing during the 1700's?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d43fdfe9-69bd-4933-a8f3-15e4cf770b42"
+            ]
+        },
+        {
+            "uuid": "e568d6aa-e1ba-4322-9d00-8d07aca4128d",
+            "question": "What was the name of the imperialistic policy in China?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d43fdfe9-69bd-4933-a8f3-15e4cf770b42"
+            ]
+        },
+        {
+            "uuid": "62160449-48fc-453b-81bc-266bd3b2eb36",
+            "question": "The symbol for mercuric oxide is?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "e5425c2d-31ea-4d7a-840d-d3b4f919b221"
+            ]
+        },
+        {
+            "uuid": "0d038c7c-3b76-4e86-8aad-70648248c51c",
+            "question": "Why do police and fire services fall under the purview of the Scottish Parliament?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "88a61e3d-8a38-4b2a-b2dd-6e0573c66516"
+            ]
+        },
+        {
+            "uuid": "ed28aea6-8b82-4810-88c1-f532cd6e140e",
+            "question": "When did the European Council task an entity with drafting a European Charter of Human Rights?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f3f064e0-f64a-471a-84c6-568f56e16d88"
+            ]
+        },
+        {
+            "uuid": "afab6957-18d0-44c5-a3c5-dade5c4997af",
+            "question": "What is the oldest known rock in the world?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f7a509b5-b165-4af9-840e-e6687e91966c"
+            ]
+        },
+        {
+            "uuid": "89f5c161-43dd-460b-a6a9-d15f56d04b97",
+            "question": "Who is the Costa Rican President that went to Harvard?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "efbb50d8-bc4e-497d-adcb-f4f0075b0b52"
+            ]
+        },
+        {
+            "uuid": "d945227f-9640-4aa3-ab6e-a02382c73d23",
+            "question": "What Harvard Alumni was the Palestine Prime Minister?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "efbb50d8-bc4e-497d-adcb-f4f0075b0b52"
+            ]
+        },
+        {
+            "uuid": "6bb389d5-6fb0-4add-93e1-bcc3f71e7ac8",
+            "question": "At what time is the Harvard-Yale rivalry set aside?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "fe05f0d4-87a4-414b-9853-7ea2499463ce"
+            ]
+        },
+        {
+            "uuid": "9625a012-e3e0-4f27-a787-138080f7b9d4",
+            "question": "Who wrote \"The Hidden Prosperity of the Poor\"?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "b72f2b22-3b20-419c-a9b4-440d1204b407"
+            ]
+        },
+        {
+            "uuid": "2728e44f-aa57-4b31-94e1-09979a97e62d",
+            "question": "How many species of trees can be found in the Amazon rainforest?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "230f6cdb-88a1-489e-adbe-08522aead01e"
+            ]
+        },
+        {
+            "uuid": "60d0b19f-7eae-4aca-8968-a1af38df8772",
+            "question": "The movements of the lobates combs are controlled by what?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "b6a46311-9510-440e-890c-68426ae00015"
+            ]
+        },
+        {
+            "uuid": "09224d7d-fb6c-43a8-891f-f11088ca2d2a",
+            "question": "Cydippids combs are controlled by what?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "b6a46311-9510-440e-890c-68426ae00015"
+            ]
+        },
+        {
+            "uuid": "88879252-3e3b-4c30-a10c-dcd1eda45a08",
+            "question": "Who helped develop the first man-made self-sustaining nuclear reaction?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "eaedf2cc-f082-44ed-8ead-e9432ffc347e"
+            ]
+        },
+        {
+            "uuid": "38add696-3fe0-4249-9fd3-84028ff93117",
+            "question": "Where is the first man-made self-sustaining nuclear reaction located?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "eaedf2cc-f082-44ed-8ead-e9432ffc347e"
+            ]
+        },
+        {
+            "uuid": "abebfb7c-b376-4259-a97d-d23698b8dc35",
+            "question": "What did Germanic tribes establish with help from the Rhine?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "27a74be0-701d-43d5-997f-59adaeb4b195"
+            ]
+        },
+        {
+            "uuid": "c6713c16-f024-4f8f-b8cb-e22e7cf1770f",
+            "question": "what was NTL Telewest re-branded to in 2007?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "b5584194-caf0-49fc-9683-c9ed74fc74b4"
+            ]
+        },
+        {
+            "uuid": "1f1fa635-5f40-412a-89c4-f0aa6157d209",
+            "question": "What is the term used to identify a deterministic Turing machine that has additional random bits?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "90ee1a6f-a7b3-4a76-8a00-1542e7d080a2"
+            ]
+        },
+        {
+            "uuid": "6e7d6a63-7497-48bc-8473-3fb9951b75ec",
+            "question": "What was the name of the Florida Huguenot colony?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "97a53a54-e726-4a01-926e-b38e1f0b952c"
+            ]
+        },
+        {
+            "uuid": "e256654e-971e-4c65-9b11-8ceb2cca2999",
+            "question": "What principle relates to the formation of faults and the age of the sequences through which they cut? ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "96de8873-4c74-47b0-89ec-e12f599a0100"
+            ]
+        },
+        {
+            "uuid": "f6358961-3144-4b70-8d22-c98651b61568",
+            "question": "Where did Kublai build his administration's strength?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "182b8d6b-3296-4984-a5e9-67d5885bf8a5"
+            ]
+        },
+        {
+            "uuid": "5cc18286-c308-4bc4-a108-a8039111b040",
+            "question": "Who was one French pro-reform Roman Catholic of the 15th century? ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ebd44fe2-345d-487f-98a6-fdbee0e4cc85"
+            ]
+        },
+        {
+            "uuid": "177c5712-ab5a-4923-868d-d5a58ce325da",
+            "question": "In April 2014, how many New Zealand students attended private schools?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "038c0533-7b0c-4d9f-956a-ce5b740267db"
+            ]
+        },
+        {
+            "uuid": "8e88d8a6-df36-4c15-8eb3-1567eede4c76",
+            "question": "What is typically used to broadly define complexity measures?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "e82fe900-d8bd-458b-9b37-ceb88a924a0f"
+            ]
+        },
+        {
+            "uuid": "7a285d2d-6a0b-46fa-a835-4ff88ece5374",
+            "question": "Hank Paulson is the former Chairman and CEO of what banking firm?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "8969bccc-6485-4854-8981-0a0f9c2deb9c"
+            ]
+        },
+        {
+            "uuid": "cfec80f4-3e81-4ccc-89ba-3ce4f88a82a4",
+            "question": "What paleontologists are currently on the university's faculty?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "8969bccc-6485-4854-8981-0a0f9c2deb9c"
+            ]
+        },
+        {
+            "uuid": "84ff31fd-e42f-4ae3-9e67-db60c96df7d1",
+            "question": "What is used to figure the relative strengh of gravity?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "b0c44a3c-6221-4a24-835e-a8b470a697a0"
+            ]
+        },
+        {
+            "uuid": "f17ab06c-6956-4044-a8d6-4cb2d22d0b61",
+            "question": " Any even number larger than what cannot be considered prime?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "0e34ab2c-537f-4965-a432-85bcf8a783b0"
+            ]
+        },
+        {
+            "uuid": "6254276d-fec3-4605-8f42-2dd44f9237c6",
+            "question": "What theorems are responsible for determining questions of time and space requirements?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "b1940469-54dc-4c9f-aab5-f0a0b4dd07be"
+            ]
+        },
+        {
+            "uuid": "3bdb5c62-cf79-42a8-996a-bd0147afdb14",
+            "question": "In what year was the school renamed as Harvard College?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "6b3f4fc5-6d64-4346-b38d-17206fd212b7"
+            ]
+        },
+        {
+            "uuid": "acb82190-25c6-4a62-a723-9640d4747b6d",
+            "question": "What percentage of the land cleared in the Amazon is used for growing livestock?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "87286afd-714b-4a26-958b-2ecc4244e68c"
+            ]
+        },
+        {
+            "uuid": "2c81ad88-f688-4621-9484-8737157de15d",
+            "question": "Who had Toghtogha tried to defeat?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d8a456d4-4ee7-45e7-9fed-e154471c17ba"
+            ]
+        },
+        {
+            "uuid": "76b9d929-9d65-4436-a677-e53fb609e646",
+            "question": "Where is D'Olier Street?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "a1690f20-2fac-42d5-98d5-2601add80e8a"
+            ]
+        },
+        {
+            "uuid": "878417ab-4577-4489-8365-0c7332128def",
+            "question": "What degree is now mandatory in the U.S. in order to be a licensed pharmacist?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "55baa193-2bc6-40da-9001-4a31c406d6c5"
+            ]
+        },
+        {
+            "uuid": "bd595963-8328-4dfa-a694-72334750c0ee",
+            "question": "When was ambulatory care pharmacy approved as its own certification?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "70bbea8e-393a-45b2-a834-d1ee02af3dc7"
+            ]
+        },
+        {
+            "uuid": "1bbe5c6f-3a94-4dcd-9505-8e67f9c9a188",
+            "question": "What characteristic of oxygen causes it to form bonds with other elements?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "8a28b6b0-0699-434d-a290-34f009f338f5"
+            ]
+        },
+        {
+            "uuid": "4237fccb-7dc4-46dc-b8bd-39956f7856a4",
+            "question": "What does the film of oxide on metals delay?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "8a28b6b0-0699-434d-a290-34f009f338f5"
+            ]
+        },
+        {
+            "uuid": "f3907e3b-2443-401a-b2b3-8b1b30c547e2",
+            "question": "How much of Paris' population was killed by the plague?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "3ba53166-8b9c-4f5c-8a53-7c4dcb2edc01"
+            ]
+        },
+        {
+            "uuid": "7ef9b8e8-c055-4ba2-a93a-de340a0e577a",
+            "question": "How long ago was it when the water broke through the Purus Arch?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "3f3d4c76-5a0b-42cf-81c8-eef325a4df55"
+            ]
+        },
+        {
+            "uuid": "78f1eb9e-5ec2-4283-9fd0-7c24e3c22fd5",
+            "question": "What basin was formed when the Andes Mountains rose?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "3f3d4c76-5a0b-42cf-81c8-eef325a4df55"
+            ]
+        },
+        {
+            "uuid": "29f53a3c-98b0-412d-a828-023cefd8551d",
+            "question": "When did the Cretaceous-Paleogene extinction happen?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "141d54eb-8bb2-4094-ad6f-9f2d06fddf2b"
+            ]
+        },
+        {
+            "uuid": "c78f3ee7-1443-4b43-978f-d7c08e4c3407",
+            "question": "Fossils found that were believed to be ctenophores were how old?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "141d54eb-8bb2-4094-ad6f-9f2d06fddf2b"
+            ]
+        },
+        {
+            "uuid": "4d028ada-b7dd-4c95-87ff-bf16ec4a15f4",
+            "question": "Cypiddids are not what?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "141d54eb-8bb2-4094-ad6f-9f2d06fddf2b"
+            ]
+        },
+        {
+            "uuid": "14fde3f5-ce9c-461f-865b-f0dd25ed7100",
+            "question": "What do current ctenophores have that fossils found did not have?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "141d54eb-8bb2-4094-ad6f-9f2d06fddf2b"
+            ]
+        },
+        {
+            "uuid": "6a559672-d2bb-427b-8dbe-443e8e966927",
+            "question": "What is the repulsive force of close range atom interaction?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ed67ebc9-e517-466e-9bff-3e7f3dbbc476"
+            ]
+        },
+        {
+            "uuid": "5a27c442-def5-412d-8256-96d5104ad3d7",
+            "question": "What causes Pauli repulsion?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ed67ebc9-e517-466e-9bff-3e7f3dbbc476"
+            ]
+        },
+        {
+            "uuid": "2ff7d781-8130-4b3f-a570-7b9f9da66dfd",
+            "question": "What was the ratio of British settler to French?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "dafe7224-39a1-440a-bc83-38e92e9c5445"
+            ]
+        },
+        {
+            "uuid": "026db1f0-d191-433e-9f03-56d50575ee44",
+            "question": "What is another word for inclusions in sedimentary rocks? ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "dda578a9-a221-44cf-bbc4-61ee598431f2"
+            ]
+        },
+        {
+            "uuid": "912edb81-3c56-4e07-93dc-9ff47aa2ad2e",
+            "question": "The urban renewal project was intended to help the residents of what neighborhood?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "1494068e-1b71-4561-a78a-92e4f0e0095c"
+            ]
+        },
+        {
+            "uuid": "78e0db97-0ec7-4d23-9016-0fdcb16ad16a",
+            "question": "Activation of a helper T cell causes it to release what chemicals that influence cell activity?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "02dca9c9-a23c-4d5b-8bc0-f33bf03ead51"
+            ]
+        },
+        {
+            "uuid": "985edfc5-829b-41e2-b5b6-dfeb37e41ed6",
+            "question": "Whose occupation of Kuwait did the US military personal seek to put an end to?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "df8c96a4-37af-45b8-b096-7d5afa8b120f"
+            ]
+        },
+        {
+            "uuid": "5304dc04-61e6-4cbc-9a26-cfc1d5360216",
+            "question": "Was the Use of the DATANET 1 name correct ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "701aba14-d88b-41b6-8fad-32915c8253b1"
+            ]
+        },
+        {
+            "uuid": "4d11a194-17f3-4995-bf72-8484c467a6b8",
+            "question": "What is the application of prime numbers used in information technology which utilizes the fact that factoring very large prime numbers is very challenging?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "bc5ce4b6-c667-4cfc-aaae-59c80d8f61c2"
+            ]
+        },
+        {
+            "uuid": "b1af759a-764b-40ad-ad5b-2604bab05691",
+            "question": "What was the percentage of whit people in Fresno in 2010?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "a3821091-36be-47f1-b508-f1963bdcc977"
+            ]
+        },
+        {
+            "uuid": "d918d972-1257-4c45-acf8-95c0ff3c8fbf",
+            "question": "What role did Michael Oppenheimer have in the IPCC's reports?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "bf5e2cc9-5c57-4401-b4a4-16a3d025d671"
+            ]
+        },
+        {
+            "uuid": "fc4e88e8-b649-4a30-b3b7-17c9b0f5ae94",
+            "question": "What approach did Oppenheimer advocate?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "bf5e2cc9-5c57-4401-b4a4-16a3d025d671"
+            ]
+        },
+        {
+            "uuid": "e1521ace-d197-4913-976a-2dc193cbf00b",
+            "question": "What are examples of clinical services that pharmacists can provide?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "47e073a8-71d8-4baf-b5f4-253bf4668698"
+            ]
+        },
+        {
+            "uuid": "bf04ee67-519e-47df-a4c6-3edd6d481e8e",
+            "question": "What is the yearly cost of some notable prep schools in New England?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "fd0b97e3-7bc4-4c33-8b30-34b926c0ab91"
+            ]
+        },
+        {
+            "uuid": "13020e14-ece6-46dc-b233-6bee8b32c3c0",
+            "question": "What did Newton's mechanics affect?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d2fcc88d-a503-42d6-ba2b-e71e9b518da2"
+            ]
+        },
+        {
+            "uuid": "830a5d11-89b5-4827-ad10-bde3601a48cb",
+            "question": "What does matter actually have that Newtonian mechanics doesn't address?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d2fcc88d-a503-42d6-ba2b-e71e9b518da2"
+            ]
+        },
+        {
+            "uuid": "bcc39577-3868-4dc6-91e6-c70c574579ed",
+            "question": "Levels of what things are used to determine emission factors?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "bdbf9a19-6043-4e29-a794-023075c42aa3"
+            ]
+        },
+        {
+            "uuid": "228edad9-df84-421a-a2f5-0066a96bf855",
+            "question": "What party forms the Scottish Parliament?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d64e3b59-6426-4ba7-a32e-b4a5537f1c24"
+            ]
+        },
+        {
+            "uuid": "6092e1c9-8ad9-4f6e-9c76-81fe1120eb79",
+            "question": "What liberal succeeded Joseph Willard as president?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f47874ec-6664-4efb-a998-0cb4596baa48"
+            ]
+        },
+        {
+            "uuid": "14773457-44ff-40f8-9894-12c83f5fe6f8",
+            "question": "In what year was Henry Ware elected to chair?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f47874ec-6664-4efb-a998-0cb4596baa48"
+            ]
+        },
+        {
+            "uuid": "26d58064-d8f3-4ea4-90c9-af689bec5ca4",
+            "question": "What did Basset analyze before coming to his conclusions?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "3f587726-c9d1-47f1-84a8-5824674faa35"
+            ]
+        },
+        {
+            "uuid": "cf15a01e-0943-45c6-b4f4-bad4075fc7bd",
+            "question": "One of FIS' agenda items was to force women to start doing what?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "8922d0a8-9ef8-4003-9cc2-952a2395e123"
+            ]
+        },
+        {
+            "uuid": "7107dd7f-9833-4f30-876c-afd414bdfc2f",
+            "question": "What was one proposal to let the IPCC respond to new evidence faster?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "63088592-1d46-4602-a0c1-11d0d9882039"
+            ]
+        },
+        {
+            "uuid": "4a26f2c0-af24-4661-a183-19c2827e6894",
+            "question": "When did Gou's calendar become the official calendar of the Yuan?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ab5f3018-743b-4fa5-891c-17b501ff00b6"
+            ]
+        },
+        {
+            "uuid": "aef6c70d-eb6c-446a-bf1a-479139ce5d2d",
+            "question": "What sort of system releases the exhaust steam into the atmosphere?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "8cb6de5a-db51-4bc7-a327-776841983533"
+            ]
+        },
+        {
+            "uuid": "7ddeb232-9694-46b3-b394-96888513279c",
+            "question": "What product was notably shipped in vessels equipped with double and triple expansion engines?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "e8e15fde-8390-4b4a-bcd7-d10e245b6dff"
+            ]
+        },
+        {
+            "uuid": "2c15ceb2-d44d-4d7e-b344-8cb43cecac04",
+            "question": "In what part of the 19th century were steam turbines introduced?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "35e33791-6c46-4384-bdf6-d2b2698ec819"
+            ]
+        },
+        {
+            "uuid": "50ba4008-cb85-4665-a8a6-ae4d6f54d8b2",
+            "question": "What percentage of electrical power in the United States is made by steam turbines?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "35e33791-6c46-4384-bdf6-d2b2698ec819"
+            ]
+        },
+        {
+            "uuid": "32bf88dc-ebc0-4de2-97cd-5944e8717dfd",
+            "question": "How was the Rhine Gorge formed?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "0c9053f8-cae5-4aa2-97ef-5b94ed83e791"
+            ]
+        },
+        {
+            "uuid": "4c3ce560-e7de-44e0-a093-da11ce710092",
+            "question": "What does quadratic reciprocity seek to achieve?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "51f8d1c4-2258-4d91-a10f-249652664318"
+            ]
+        },
+        {
+            "uuid": "7381052a-37ac-42f8-8a21-69e6836e2998",
+            "question": "How are the total numbers of seats allocated to parties?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ed105589-570e-4650-a690-190f1025d14b"
+            ]
+        },
+        {
+            "uuid": "ddf34849-e684-47b6-8dd6-2e1dacd4512f",
+            "question": "Which branch of the EU has had the most influence on the development of EU law?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "edd5a2a9-b695-43f4-b251-258c18f8bfab"
+            ]
+        },
+        {
+            "uuid": "bb593c2e-0cdf-4750-981c-1d20e6da1629",
+            "question": "What entity deals with EU staff issues?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "edd5a2a9-b695-43f4-b251-258c18f8bfab"
+            ]
+        },
+        {
+            "uuid": "f079a421-859a-4248-9c1b-c3838db91e89",
+            "question": "When did Great Britain lose its colonies in North America?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f19eb59f-1d29-4cab-b3f2-a651b32fae82"
+            ]
+        },
+        {
+            "uuid": "cc7d28ed-031d-4214-874f-3bd3127101fe",
+            "question": "When did Ronald Robinson die?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "b5a96413-a52c-4e8f-a092-360d8da4dfa9"
+            ]
+        },
+        {
+            "uuid": "59b26344-7fc6-4c58-a0c3-5c8c418371ce",
+            "question": "What geochemist developed the uranium-lead dating method into lead-lead dating?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "7feea9a5-6172-4dfc-846e-c28ed500fec0"
+            ]
+        },
+        {
+            "uuid": "5c935ed0-7142-4e9e-9696-aa16c1f2552e",
+            "question": "Other than the steamboat, what modern form of travel brought visitors to Florida?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "dd3f9330-278f-407d-98e7-d466dc87d86c"
+            ]
+        },
+        {
+            "uuid": "0b13b3e8-da1d-48cf-afe4-9808378e69df",
+            "question": "Vice President Agnew describes Civil disobedience in what activities?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "0a847813-f886-4aee-9624-0c81da337121"
+            ]
+        },
+        {
+            "uuid": "666c7ab4-cd43-40fd-93e2-99aeb5e84b81",
+            "question": "Who noted the different current uses of civil disobedience?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "0a847813-f886-4aee-9624-0c81da337121"
+            ]
+        },
+        {
+            "uuid": "ed0c4008-00e9-48e7-aabf-c0ebfc70ba72",
+            "question": "What religions did Tugh Temur follow?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c54e8240-d84b-4fcc-929b-f22adc1bcb27"
+            ]
+        },
+        {
+            "uuid": "e0a44690-fd8a-4d0a-a46a-da49fd55ec22",
+            "question": "This causes the rock unit as a whole to become longer and thinner. ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ee0bf7a8-1ddc-4aa7-a87a-b60b64dce49b"
+            ]
+        },
+        {
+            "uuid": "b650bb55-8c08-4bfd-88df-93b804dfafcd",
+            "question": "What causes rock extension?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ee0bf7a8-1ddc-4aa7-a87a-b60b64dce49b"
+            ]
+        },
+        {
+            "uuid": "bc8f1d01-03c1-45e9-a99b-cba17fb3799e",
+            "question": "Which newspaper defined southern California?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "5765994a-4a22-4cb0-b6c5-d81479e4545e"
+            ]
+        },
+        {
+            "uuid": "751e306b-8090-4bc5-8839-68d13d82674b",
+            "question": "What was the newer county added to the list?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "5765994a-4a22-4cb0-b6c5-d81479e4545e"
+            ]
+        },
+        {
+            "uuid": "3d03661d-b341-414e-a1da-de6bd6904b13",
+            "question": "Which party is strongest in Victoria's northwestern and eastern regions?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "aa428121-b836-430f-be1a-76e679d4a556"
+            ]
+        },
+        {
+            "uuid": "1057023e-8dc9-4172-8305-3b80e607f056",
+            "question": "What type of ideals generalize prime elements?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "2f6a93a1-aad9-43e9-b86d-e55a84b4da97"
+            ]
+        },
+        {
+            "uuid": "ca102adc-fefb-46fd-bb5c-ab04c28ca35a",
+            "question": "What is the name of the university's summer festival?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "813ebe4e-da4e-4ef1-ae49-7c3c342566d4"
+            ]
+        },
+        {
+            "uuid": "04098d49-eca5-4432-b0b4-19e40505cae5",
+            "question": "When did the Egyptian Islamic Jihad assassinate Anwar Sadat?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "42758891-47c4-415f-babd-1912e22fe501"
+            ]
+        },
+        {
+            "uuid": "c6bffff1-dc9a-433c-86cb-cea56a672e15",
+            "question": "Who wrote a pamphlet outlining the radical ideas of the extremists?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "42758891-47c4-415f-babd-1912e22fe501"
+            ]
+        },
+        {
+            "uuid": "e0e1320c-3bd7-438d-80a1-795bb024b201",
+            "question": "How many Huguenots fled France by the 1700s?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "a8321489-383d-40af-8e15-b0820fa62e0a"
+            ]
+        },
+        {
+            "uuid": "cf79dd1f-0666-4dc8-a6e4-5c67ee05c678",
+            "question": "How did the Islamic Group's campaign to overthrow the government turn out?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "cc042de8-cdac-4a68-a015-b06284aaea6a"
+            ]
+        },
+        {
+            "uuid": "3605c64e-8d89-43c4-a855-ef07e8993e15",
+            "question": "Who was Richard's fiancee?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f10be683-3c62-4c05-883a-2155e3db65b5"
+            ]
+        },
+        {
+            "uuid": "9155db7c-347c-44a6-801f-36b93d02a363",
+            "question": "What flood impacted the Meuse?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "5d3926af-a89b-401d-9674-70af80137e17"
+            ]
+        },
+        {
+            "uuid": "61b3f136-0843-42f0-91e6-74f1babfdc42",
+            "question": "What year did the flood that impacted the Meuse take place?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "5d3926af-a89b-401d-9674-70af80137e17"
+            ]
+        },
+        {
+            "uuid": "29d31222-50d3-4982-8ea5-06a5da0be870",
+            "question": "What philosophies underlay Chinese medicine?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "106a46d4-099d-454a-ac7c-05b5330a6fe0"
+            ]
+        },
+        {
+            "uuid": "e7f76c1c-e90c-4d61-b483-6158789d78d8",
+            "question": "What is violating a law which is not the goal of the protest called?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "0815eb42-a01b-45da-8830-38c703e894a3"
+            ]
+        },
+        {
+            "uuid": "df18e7b5-43f5-41f7-87a5-8bfd3c572213",
+            "question": "Natural killer cells recognize cells that should be targeted by a condition known as what?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "e5f9eca5-3340-4253-879c-c7fb829a8606"
+            ]
+        },
+        {
+            "uuid": "dac34126-c529-4666-9a14-46a6bc3917a9",
+            "question": "Friedrich Ratzel thought what was needed for a state to survive?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ed46e9eb-14d9-4bb4-9828-ffb6b8284c7d"
+            ]
+        },
+        {
+            "uuid": "347e13a9-4c98-4ee4-ba8d-f55f3b54b613",
+            "question": "Who do clinical pharmacists work with much of the time?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "cce59ce6-c3af-4ce5-8f5a-caa7c785bbb1"
+            ]
+        },
+        {
+            "uuid": "1bb05f92-6953-48c8-9d2c-cff5681762bb",
+            "question": "Compounding was not popular in the construction of what machines?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "98970cc1-6df0-4310-bf89-78df931eb3be"
+            ]
+        },
+        {
+            "uuid": "c0a65e40-96d1-46ee-89e3-0e1ba2fd1de7",
+            "question": "When B cells and T cells begin to replicate, what do some of their offspring cells become?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "4172c3d0-bb81-446e-bd5e-bc7baf29e54b"
+            ]
+        },
+        {
+            "uuid": "b61415b1-5300-4171-9c8e-c29b222b77ee",
+            "question": "Long-lived memory cells can remember previous encounters with what?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "4172c3d0-bb81-446e-bd5e-bc7baf29e54b"
+            ]
+        },
+        {
+            "uuid": "f2295da1-40da-4f3e-a82d-f779352afae8",
+            "question": "What was the proportion of Huguenots to Catholics at their peak?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "455e7e2d-71d9-4f80-b674-93e2db43aaa3"
+            ]
+        },
+        {
+            "uuid": "9149d8f8-1186-45e4-b23d-94a4b2535212",
+            "question": "What treaty ended the Wars of Religion?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "455e7e2d-71d9-4f80-b674-93e2db43aaa3"
+            ]
+        },
+        {
+            "uuid": "1d2c63c5-0a2c-4a4f-9d51-a8bfae6d3096",
+            "question": "What is the animal that the Rhine's islands are named after?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "a8522f06-3afb-4f41-8ed1-96c57db94c71"
+            ]
+        },
+        {
+            "uuid": "1c673484-0a1a-45e9-86ee-26dd65a0da02",
+            "question": "What major crop was brought to China from the west?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "fb62a62e-99dc-485e-bcc1-fcef658fbdd0"
+            ]
+        },
+        {
+            "uuid": "fa4f9e80-6912-40dc-a5d9-18e2da1bb233",
+            "question": "Ctenophores and cnidarians are classified as what?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "349341d6-8003-4b3d-a9ee-d2680e48cc6d"
+            ]
+        },
+        {
+            "uuid": "1c67b631-f399-4688-8ab5-e4201925e75e",
+            "question": "What do tribes use Google Earth and GPS for?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "0f6a20ba-9f85-45c0-8d19-a9a2f843cc6f"
+            ]
+        },
+        {
+            "uuid": "ff3aa75b-fc3b-4d91-a200-0b5b4d9eccbd",
+            "question": "Is the packet header long ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c3cbad47-4644-4862-bca7-48b87b99b8d5"
+            ]
+        },
+        {
+            "uuid": "d2abd219-f324-42f9-84f8-02ce41b39276",
+            "question": "How did King Louis XV respond to British plans?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "89f84e99-5742-4bc6-8d2a-56877aba10fd"
+            ]
+        },
+        {
+            "uuid": "a6f2f736-014c-4084-a0f6-2e020c5161de",
+            "question": "What do professional athletes seek to boost from breathing oxygen?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "91fdf15b-6957-47ff-be14-c229ec736421"
+            ]
+        },
+        {
+            "uuid": "aea74f25-865a-475d-ba79-72f40dae7ff1",
+            "question": "For what purpose is oxygen used by animal life?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "1f36624f-bece-4951-9977-d0b36e8b228c"
+            ]
+        },
+        {
+            "uuid": "b94c78d9-ba7b-4f68-b2ec-3ebd27982689",
+            "question": "What is the largest city the Rhine runs through? ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "91b88ab9-7a43-4062-ab69-30b326093a2c"
+            ]
+        },
+        {
+            "uuid": "605f1db2-78d8-4d2a-9e5e-11d9e7aa2898",
+            "question": "What is the name of the museum and research center for Near Eastern studies, that is owned by the university?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "2ac42a0d-d9a1-4993-b420-826607a24240"
+            ]
+        },
+        {
+            "uuid": "3e5ba441-4579-4cd7-a021-dcc4d5fc8efa",
+            "question": "What kinds of trees is Kearney Boulevard lined with?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c53f6ae6-52de-4d16-8be8-62a31a3074b3"
+            ]
+        },
+        {
+            "uuid": "61df5577-a3c8-4bbe-a83c-a9a981ed9436",
+            "question": "Did the rainforest managed to thrive during the glacial periods? ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "6b105909-9bb6-4359-9ee1-6f512b0581a2"
+            ]
+        },
+        {
+            "uuid": "15e161ac-fb06-45e7-82ca-2615c20afa92",
+            "question": "The amazon rainforest became a mostly inland forest around which global event?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "6b105909-9bb6-4359-9ee1-6f512b0581a2"
+            ]
+        },
+        {
+            "uuid": "24ca02ea-7415-4414-b6c1-84f2081cbbf4",
+            "question": "What movements pursued a more radical direction?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "586833b7-eff9-4acb-9441-4eb37c71f388"
+            ]
+        },
+        {
+            "uuid": "80e2280a-e67f-4a03-a2e6-3e4280f63fd1",
+            "question": "What did the Kyoto Protocol try to address?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "9bad7ee7-4979-4c38-a0a1-42504f1b20be"
+            ]
+        },
+        {
+            "uuid": "dfee450f-f771-41a5-819e-e5aecc7250ad",
+            "question": "What is the name of the professional skateboarder that lives in southern California?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "40950734-45dd-47c2-9b5e-0f06ddf3cf9b"
+            ]
+        },
+        {
+            "uuid": "6aed7336-b61d-4d2a-bf51-327cb37e6122",
+            "question": "Colonialism often means a country doing what?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c0256e9c-3cdb-4afc-81be-4536c8ad756d"
+            ]
+        },
+        {
+            "uuid": "c2d0f3ca-72bd-44bc-8a6b-53a9347016d5",
+            "question": "Which president ended the Emergency Energy Conservation Act?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "5156d565-21c8-44b0-85d1-a941c18f04c3"
+            ]
+        },
+        {
+            "uuid": "87ca8e31-e4a3-4aa7-a67f-6b2161851998",
+            "question": "According to the theory, what does the name \"Huguenot\" mean?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "a8dbfad5-a520-43c7-9d07-d0d15ed7d208"
+            ]
+        },
+        {
+            "uuid": "b19097db-aafc-4a7c-b996-acc1b48da88a",
+            "question": "The Maroons are apart of what association?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "b5c75b01-1852-4c35-b8b6-a0c9c0213ab2"
+            ]
+        },
+        {
+            "uuid": "ba818cd7-2bf3-4b4b-994c-f3d3bfc95487",
+            "question": "How much has global mean surface air temperature changed in the last century?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f52fe929-890a-4a3b-a87a-bed6f3eb1af1"
+            ]
+        },
+        {
+            "uuid": "d3588058-6d5e-43b4-b9ff-c2f83c6fd1e8",
+            "question": "What could the Supplemental Nutrition Assistance Program purchase?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "8e85810b-0a39-4c4a-bbd3-f0fc5171bd6b"
+            ]
+        },
+        {
+            "uuid": "6581276e-da5c-48b3-a6d8-2e0305265b12",
+            "question": "When did Landau propose his four conjectural problems?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "1c08b372-56e6-44ec-a602-cd81e05de127"
+            ]
+        },
+        {
+            "uuid": "a0552fb6-3413-4b74-a47e-1289b82dc2dc",
+            "question": "Which theorem states that all large odd integers can be expressed as a sum of three primes?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "1c08b372-56e6-44ec-a602-cd81e05de127"
+            ]
+        },
+        {
+            "uuid": "5bdcc7a8-5042-475f-8248-1444ba66594f",
+            "question": "When did Honda, Toyota and Nissan open US assembly plants?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "b603138b-23e1-4c9d-bc7d-4d1e4994f4ec"
+            ]
+        },
+        {
+            "uuid": "d5cdfeef-0550-41d0-b6d6-4a5006f8cc08",
+            "question": "The region spans which mountains other than the Transverse ranges?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "01f298bd-51b6-44ed-b020-41ec58866835"
+            ]
+        },
+        {
+            "uuid": "6a82c733-5c22-4fa8-9016-3ed6a5a6939f",
+            "question": "In addition to the traveling salesman problem, what is another example of a function problem?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "bdb11e0d-3c39-42b6-a476-f505d009728d"
+            ]
+        },
+        {
+            "uuid": "b12b58c9-3e6c-41a1-8784-1ee2120cf2e3",
+            "question": "Why are newly discovered oil sold at a higher price?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "0edc3bbf-6500-45c7-afdd-580a0d2ac9cb"
+            ]
+        },
+        {
+            "uuid": "3afd8c3a-3ebd-47c5-8599-2992af7607ce",
+            "question": "Why was old oil withdrawn from the market?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "0edc3bbf-6500-45c7-afdd-580a0d2ac9cb"
+            ]
+        },
+        {
+            "uuid": "01385fad-a820-4869-8dd0-a1da97205492",
+            "question": "What modern city did Khanbaliq become?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "aa0e958b-40f8-41fd-9b41-71bdde88992b"
+            ]
+        },
+        {
+            "uuid": "bf2870e1-2291-4fb5-b911-9328b1e978b0",
+            "question": "What is an autoimmune disease that affects women preferentially?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "1fc1b137-9479-4ba1-b6af-5b049676f2e0"
+            ]
+        },
+        {
+            "uuid": "201ed026-806f-40c3-bec5-a6e9d02560ef",
+            "question": "Which pharmacists are likely to seek additional education following pharmacy school?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "7543ebd5-3c7b-4c3b-8f08-bc340453e96e"
+            ]
+        },
+        {
+            "uuid": "1f176ec3-4544-475d-b42f-543588a4200e",
+            "question": "What is another name for the west side of Fresno?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "207da957-5a8c-4859-a382-abfd0aa615f1"
+            ]
+        },
+        {
+            "uuid": "685145a3-9b47-4ab0-9b9b-5f5e0465036b",
+            "question": "What physical condition can acute oxygen toxicity cause?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "5af52e20-24ba-47f0-b88d-64d7b41b314a"
+            ]
+        },
+        {
+            "uuid": "345fd50f-c56b-4c28-abba-8e2903010f49",
+            "question": "What class is most commonly not ascribed to the graph isomorphism problem in spite of definitive determination?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f3f27fa8-a8ec-442b-a3b3-4a99cf3bac01"
+            ]
+        },
+        {
+            "uuid": "cd285729-9efc-4fbc-bc62-67939175da52",
+            "question": "What is another term used for year 13?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "846aa21d-a5a7-48c6-b1e8-a55cee869cef"
+            ]
+        },
+        {
+            "uuid": "6e04fe13-1021-4904-9d1b-f086f509cd1f",
+            "question": "What German ruler invited Huguenot immigration?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "040d718a-efa2-42ac-902e-e9163a92515f"
+            ]
+        },
+        {
+            "uuid": "83e4aa76-e551-444c-99d4-feb25add970c",
+            "question": "What German general and fighter pilot was of Huguenot ancestry?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "040d718a-efa2-42ac-902e-e9163a92515f"
+            ]
+        },
+        {
+            "uuid": "d6c45d35-7086-40c6-9b6d-1baacdb57e32",
+            "question": "In what year was the Great Internet Mersenne Prime Search project conducted?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "dfced92a-a2fa-4a03-b613-45ed142dd029"
+            ]
+        },
+        {
+            "uuid": "a164856c-aae5-4bdd-9ff2-d96e9d31097d",
+            "question": "What is Engineering News-Record?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "978bbc3b-083a-4782-b868-061d4c42aa28"
+            ]
+        },
+        {
+            "uuid": "b58a4364-91d8-4d6a-a44b-0b83346ef1a2",
+            "question": "Where does oxygen rank by mass in the planet's biosphere?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "403f966e-518f-48b7-81ef-0e05a64027dd"
+            ]
+        },
+        {
+            "uuid": "8fe66604-8a9d-4ed0-bc72-4fb15a6aed03",
+            "question": "How many bits are typically used in the primes for the Diffie–Hellman key exchange?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "294c994c-52b4-436c-9acd-f68ae5116b03"
+            ]
+        },
+        {
+            "uuid": "7620987f-b205-4faa-8ada-341d969d61e0",
+            "question": "What philosophy of thought  addresses wealth inequality?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "fba83ab8-c199-438c-937f-b6bd561b4098"
+            ]
+        },
+        {
+            "uuid": "b769f5da-7214-49e0-afd8-9fa2926c73c2",
+            "question": "What do David Castlles-Quintana and Vicente Royuela do for a living?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "57a1957f-42b9-4384-9f15-5e0c08079404"
+            ]
+        },
+        {
+            "uuid": "89f5f3f6-f339-4516-95b2-e1440d79b9b2",
+            "question": "What is the number of plant species in economics and social interest?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "8f0d4c67-2151-4b95-8a20-fdc77c2b7b53"
+            ]
+        },
+        {
+            "uuid": "b04f2f14-453c-4c9f-8013-ea377652fda7",
+            "question": "How much success did this expedition with Braddock find?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "7dd7ef1f-f373-4269-a038-f360c881ce44"
+            ]
+        },
+        {
+            "uuid": "72b7265e-113c-42c3-94c3-ba39bdcc8cbf",
+            "question": "How much did the statement predict global surface temperature would increase by 2100?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "410d93e4-60b2-4249-995a-ca0af38b8b3a"
+            ]
+        },
+        {
+            "uuid": "b4e6b6e3-06fc-44f9-aaba-f1eb62829aa8",
+            "question": "How many women were employed in construction in 2011?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "497366e9-b67f-4096-ac43-762c3d9e0fcb"
+            ]
+        },
+        {
+            "uuid": "a8965c57-537e-4e0f-bf31-b9c5e1b384a8",
+            "question": "Who often operates internet pharmacies?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "960ea215-b58f-451d-ab18-dc166042d2b0"
+            ]
+        },
+        {
+            "uuid": "9d0186e5-ea85-4630-a4ac-ca3be749e7c3",
+            "question": "In autoimmune disorders, the immune system doesn't distinguish between what types of cells?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "df602458-8917-4b9f-886f-f6d29d7d07bd"
+            ]
+        },
+        {
+            "uuid": "dfc1f01e-774a-4248-aa99-a2bd9f2cf7a5",
+            "question": "Drop in the blood levels of cortisol and epinephrine results in increase levels of what hormones?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f82051a7-ae6b-4e60-810f-3d587a01ce58"
+            ]
+        },
+        {
+            "uuid": "bd29cc85-ff7d-413c-971a-3691aaec8176",
+            "question": "How was the civil disobedience shown in Antigone?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "9509fbac-6365-4974-8694-9e3256650c57"
+            ]
+        },
+        {
+            "uuid": "d06e4ad5-bcd6-4e66-8f56-3666151b63fd",
+            "question": "What video game series did Alex Seropian make?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c90250ca-edc7-4ef6-b0b2-66507cad6a4f"
+            ]
+        },
+        {
+            "uuid": "9138269d-7e7b-426c-9515-5ed4f49d8f04",
+            "question": "What American actor is also a university graduate?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c90250ca-edc7-4ef6-b0b2-66507cad6a4f"
+            ]
+        },
+        {
+            "uuid": "8b7793fc-b42e-4b54-8827-9288fc71e817",
+            "question": "Who considers Los Angeles County to be a separate metropolitan area?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d638f46b-7767-472e-b056-ca5af830c165"
+            ]
+        },
+        {
+            "uuid": "d03738af-102a-4754-94b4-585a169d3664",
+            "question": "Where was Friedrich Ratzel born?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "a9c04557-1158-4192-b676-586902bddd1d"
+            ]
+        },
+        {
+            "uuid": "2c8092af-3d03-432c-ac60-e0d2cab4a38e",
+            "question": "How would the geographical societies in Europe support certain travelers?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "a9c04557-1158-4192-b676-586902bddd1d"
+            ]
+        },
+        {
+            "uuid": "daa98d9d-ca1e-4e30-a65d-1317c1996a29",
+            "question": "Which sized cars were the least demanded cars in the crisis?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "b61e3656-aa18-4836-899e-6edc0a659abd"
+            ]
+        },
+        {
+            "uuid": "dca6b096-b477-4008-a357-8f89ac19e1a6",
+            "question": "What act sets forth the functions of the Scottish Parliament?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "21e8d7c3-1365-4a93-a532-39aadd7ab36c"
+            ]
+        },
+        {
+            "uuid": "2d129a33-baa7-4edd-86f1-c20a6ff94db8",
+            "question": "What causes triplet oxygen to react slowly?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "e0370021-a67b-4a78-b8a7-3e94957f4920"
+            ]
+        },
+        {
+            "uuid": "2e945995-f708-4348-88cf-44b0060ad41a",
+            "question": "What gained ground when Arab nationalism suffered?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "e1393924-dfc1-41a3-a0bf-0d18b57b9e7c"
+            ]
+        },
+        {
+            "uuid": "30e84a15-5309-4c2d-9a90-c14c2f1fd308",
+            "question": "Why did Berlin Huguenots switch to German from French in their services?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "db3df5c2-4db8-40b7-9ef7-07b8d91a6d16"
+            ]
+        },
+        {
+            "uuid": "d833b095-fe39-4a64-be66-192ce37cf0e7",
+            "question": "What years did this occupation take place?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "db3df5c2-4db8-40b7-9ef7-07b8d91a6d16"
+            ]
+        },
+        {
+            "uuid": "ddd9533c-ade2-4d99-a436-4e5781597621",
+            "question": "What other Northern European cities had Huguenot congregations?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "db3df5c2-4db8-40b7-9ef7-07b8d91a6d16"
+            ]
+        },
+        {
+            "uuid": "4313b39f-bbad-4703-81a2-e67e9b6451dc",
+            "question": "What is an example of an enzyme that can transform skin cells into tumors when expressed at high levels?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "a8998feb-6a7c-4962-9ce2-b5f36447e568"
+            ]
+        },
+        {
+            "uuid": "a75d5683-fd2f-48e4-a658-e2a0d17b529d",
+            "question": "What does the Zachęta National Gallery of Art organize exhibitions of art from?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "8146e509-6a3c-4ea4-beaf-505a87c63766"
+            ]
+        },
+        {
+            "uuid": "ca64bd6e-c771-4c0f-b424-0cef6dd9fc6a",
+            "question": "What are the most powerful class of anti-inflammatory drugs?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "4f1fb010-f234-4f04-8818-0d11f49a191e"
+            ]
+        },
+        {
+            "uuid": "f167368a-d91e-46f4-9455-b75af2482fa0",
+            "question": "Different committees have what set out in different ways?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "481cbd17-846d-45c2-859e-94d62b276246"
+            ]
+        },
+        {
+            "uuid": "11fd6275-32d8-4b3a-a459-fe90a7dad8b4",
+            "question": "According to Lenin why must capitalistic countries have an imperialistic policy?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "87f3acc1-62a9-4f85-ab23-bbdea8643729"
+            ]
+        },
+        {
+            "uuid": "3b6a291a-ef7f-4fde-ad6a-fec6da705b18",
+            "question": "By which year did Chrysler ended its full sized luxury model?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "b9eb3c55-af29-4599-a83a-cc3917261726"
+            ]
+        },
+        {
+            "uuid": "14786429-9739-4375-87de-ed49754a8448",
+            "question": "What is the term for a mathematical model that theoretically represents a general computing machine?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "5ecd332d-cbc4-4853-ad9c-af9ba0933dba"
+            ]
+        },
+        {
+            "uuid": "090a6e38-4119-469e-a313-b6632303f16b",
+            "question": "What year was the university's first president given his position? ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "3bd19a19-780d-42a8-8ef7-4c7ea33c1048"
+            ]
+        },
+        {
+            "uuid": "d449971e-d9a3-41dd-ac8f-9de6fb3364dc",
+            "question": "What do closed rivers serve as after they close?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "442f794d-8d92-4f93-bb3c-604479f20b7a"
+            ]
+        },
+        {
+            "uuid": "3ad8b10d-b766-4dbe-b5ce-acd542fbf428",
+            "question": "What changed the Rhine's Delta?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "442f794d-8d92-4f93-bb3c-604479f20b7a"
+            ]
+        },
+        {
+            "uuid": "e1d4c537-7060-42a5-9d93-057c2ff5c282",
+            "question": "Where does the Rhine end?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f54a9066-1af1-476c-bbbf-65a755132d36"
+            ]
+        },
+        {
+            "uuid": "f77a0cde-7e57-4c04-9d88-985c7f226303",
+            "question": "What platform was Sentanta Sports planning on launching on?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "11c96c22-5a5c-4808-b814-9e7b1b239884"
+            ]
+        },
+        {
+            "uuid": "0f08bdd4-9efe-4a00-a302-bc45922eab66",
+            "question": "Where did the discharge from glaciers go in Europe in the last Ice Age?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d6fa4b6b-98c5-4a15-b212-a04a21f49732"
+            ]
+        },
+        {
+            "uuid": "c7edd014-4992-4815-a62e-ca37436f714c",
+            "question": "When were the French wars of religion?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f366f094-6dd5-4337-b3a1-d7cb4b549203"
+            ]
+        },
+        {
+            "uuid": "afaf7fbe-4358-413d-a8ca-a8fa08bc5744",
+            "question": "In 1755 what fort did British capture?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f69d5d4e-a5cb-46a9-b763-4d48304df1b8"
+            ]
+        },
+        {
+            "uuid": "eed5e796-6222-4a1a-bad1-e7cea8dee600",
+            "question": "Trotsky thought what was needed for a true Russian revolution.",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ccd18586-ee88-49ae-a6f4-400486c7b993"
+            ]
+        },
+        {
+            "uuid": "6bfe1682-4373-4f1a-8186-e64f2e11c398",
+            "question": "Outside of its use of automobiles, what else is southern California famous for using?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "52783589-5102-4fbc-9a71-19f0bc84dfa7"
+            ]
+        },
+        {
+            "uuid": "201c0434-ef3f-4d2a-9170-b0e5f39e6b97",
+            "question": "What town is surrounded by Jacksonville?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "76c41653-74a9-4749-804d-afe866b1e943"
+            ]
+        },
+        {
+            "uuid": "887be12e-0d13-4544-a5ca-018eeda5ab67",
+            "question": "What did did article 34 discriminate against in Procureur du Roi v Dassonville?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d56a9686-138e-4a96-a961-1345f90bc9ba"
+            ]
+        },
+        {
+            "uuid": "89b0bd47-759f-49eb-ada7-16f48fd14b63",
+            "question": "In which case were French vigilantes sabotaging shipments of Spanish Strawberries?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d56a9686-138e-4a96-a961-1345f90bc9ba"
+            ]
+        },
+        {
+            "uuid": "2b5967c2-c6e0-4bdf-937f-b396efa68985",
+            "question": "Which court argued that the Treaty of Rome did not prevent energy nationalism?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "314f566f-228b-48d2-94ce-d7e7ede2b883"
+            ]
+        },
+        {
+            "uuid": "7eae812e-0824-48fa-a5c1-36af93d700a9",
+            "question": "Pneumatica was written by what Greek writer?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "450560bb-fd1b-485e-8edf-a7e134fc1109"
+            ]
+        },
+        {
+            "uuid": "0772cece-71b0-430c-a770-48eaa2885f24",
+            "question": "What pushed up the Pyrenees?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d020e543-7b00-40dd-b012-94c6fbd15775"
+            ]
+        },
+        {
+            "uuid": "35dd4898-f88c-4425-98ff-8ba37bbe4644",
+            "question": "A complete loss of rainforest cover may be caused by what type of emissions?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "5ce4fd8a-25b6-4e93-8aef-ee5c706af71a"
+            ]
+        },
+        {
+            "uuid": "f3cf69a7-a449-4b4a-8a4a-5def3d5d5b0b",
+            "question": "In Nepalese private schools, what is the primary language of instruction?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "1dbf1631-32e4-475e-b160-9dd54b262812"
+            ]
+        },
+        {
+            "uuid": "3a3faa93-7f0e-4b23-bb8d-f3fd6aff61c0",
+            "question": "What is the first line of defense against pathogens that prevents them from entering an organism?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "5b593991-47c0-403c-a2a9-acca66cc6479"
+            ]
+        },
+        {
+            "uuid": "486422f5-0640-4a3a-a66b-40294f96ce8e",
+            "question": "When was the study on sequenced Y genomes published?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "4c05d334-18f2-4d9f-9b03-a8196e5ebcab"
+            ]
+        },
+        {
+            "uuid": "2807c161-93df-4c43-9096-a4e7d70ea4de",
+            "question": "Does the residential architecture of the Tower District compare or contrast with other part of Fresno?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "436d70db-2bcf-4f2e-947e-4af4b6a43321"
+            ]
+        },
+        {
+            "uuid": "f2a06431-bea0-4409-9555-faee7502daf4",
+            "question": "How recently has the homes in Fresno been restored?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "436d70db-2bcf-4f2e-947e-4af4b6a43321"
+            ]
+        },
+        {
+            "uuid": "e1b70d12-16b8-4e81-a44e-abc62fcf468f",
+            "question": "How would one write T(n) = 7n2 + 15n + 40 in big O notation? ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ce35ee5c-3413-4a36-a315-58686bf060bb"
+            ]
+        },
+        {
+            "uuid": "cf334b2d-3970-43db-ad16-e5e79ea91f68",
+            "question": "Big O notation provides autonomy to upper and lower bounds with relationship to what? ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ce35ee5c-3413-4a36-a315-58686bf060bb"
+            ]
+        },
+        {
+            "uuid": "e859c26b-baf3-4470-aa40-9ab437678dad",
+            "question": "What is the resultant force called when two forces act on a particle?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "bcc53310-39e8-48e1-a61d-6fa1d36f0e73"
+            ]
+        },
+        {
+            "uuid": "aaf428f3-7813-4ba5-b5e7-90a940f8fac8",
+            "question": "About what year was the atmospheric engine invented?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "3667a795-dbfd-4c0e-a377-51f13b0861c2"
+            ]
+        },
+        {
+            "uuid": "94de8818-fcd4-4496-8135-4cf8d69d6c21",
+            "question": "Who conceptualized the piston?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "3667a795-dbfd-4c0e-a377-51f13b0861c2"
+            ]
+        },
+        {
+            "uuid": "c84a4d38-2998-4557-8fe5-7fe0788c3d3d",
+            "question": "In what year did Pierre de Fermat declare Fermat's little theorem?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "4c68112b-5c7b-49e0-a6c6-31ebff0e386f"
+            ]
+        },
+        {
+            "uuid": "4945067d-b3af-4c55-b104-dff611c0963a",
+            "question": "Besides Leibniz, what other mathematician proved the validity of Fermat's little theorem?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "4c68112b-5c7b-49e0-a6c6-31ebff0e386f"
+            ]
+        },
+        {
+            "uuid": "4838f276-f00c-48a4-846e-60e74930c9b1",
+            "question": "What amount of the worlds carbon is stored in the Amazon forest?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "5f4b7dd2-b5d1-4f01-afc1-b268f53276a2"
+            ]
+        },
+        {
+            "uuid": "e24ae019-425f-4e66-bbc8-283b993c2a9c",
+            "question": "How long is the section that turns north? ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "3845bccb-4a6c-44ef-945a-bb4b6cbaf43b"
+            ]
+        },
+        {
+            "uuid": "b970a661-2917-4273-90e7-6c9336bd1f11",
+            "question": "What is the height of the section that turns north? ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "3845bccb-4a6c-44ef-945a-bb4b6cbaf43b"
+            ]
+        },
+        {
+            "uuid": "9190657d-e3b3-4689-9bf4-bb47dfe17dd3",
+            "question": "All Italian chocolate is made from what alone?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "6aebf76e-1a47-400c-ae4b-4edb9bdc0cc1"
+            ]
+        },
+        {
+            "uuid": "242820e4-fee5-4065-8fdb-b5cceb194475",
+            "question": " In the 2009 Commission v Italy, case, the Court of Justice held that an Italian low prohibiting what infringed article 34?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "6aebf76e-1a47-400c-ae4b-4edb9bdc0cc1"
+            ]
+        },
+        {
+            "uuid": "5910797a-43c0-4d10-b687-7c840905ce85",
+            "question": "How much more land does the school own in Allston than Cambridge?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "1de411f1-460e-46a1-8d87-951a8c481e31"
+            ]
+        },
+        {
+            "uuid": "1d272351-ba5b-4b18-a038-e2c771751d11",
+            "question": "What are some proposals to connect campuses?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "1de411f1-460e-46a1-8d87-951a8c481e31"
+            ]
+        },
+        {
+            "uuid": "6e40e8d7-7151-4c1f-b0e3-1683855de9f5",
+            "question": "What introduces inequality to a country?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "82b7633c-b5cf-4377-96a3-8280a05c2c33"
+            ]
+        },
+        {
+            "uuid": "f595376a-5caf-4e58-ab79-648f467b191e",
+            "question": "A molecular phylogeny analysis confirmed that cydippid are not what?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "232badde-721b-4b86-ac1f-799e3ef0452a"
+            ]
+        },
+        {
+            "uuid": "3023a123-f4ef-4d49-8404-de51e44a848f",
+            "question": "The UK and France had non interruptions in their oil supply as they did not allow which country to use their airfield?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f2d218a1-c7ce-45ac-99ff-397015a72f6c"
+            ]
+        },
+        {
+            "uuid": "d287b506-0c98-45fe-b05a-ba8a34c62b1e",
+            "question": "What are other alternative names for French and Indian War?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "108bcec8-9739-4a33-b325-999830f4294f"
+            ]
+        },
+        {
+            "uuid": "75ce3801-9f71-4725-b90b-0f6da67cd238",
+            "question": "When was Montreal captured?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "0d699862-0c44-43a6-924e-c29f71902d68"
+            ]
+        },
+        {
+            "uuid": "e4eedf6f-d1d5-411f-93a6-80c47c00f852",
+            "question": "In what year was an early admission program reintroduced?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "07617a59-2684-40ee-9e57-f9d8596713c7"
+            ]
+        },
+        {
+            "uuid": "9da03b5b-a2bf-4fd3-afb2-5306165bdef7",
+            "question": "What aspects of life does Islamism seek to integrate itself into?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "05427872-f2e9-40a2-8c29-754d96f1cc05"
+            ]
+        },
+        {
+            "uuid": "314af520-3bf0-4206-ae09-8650422ab515",
+            "question": "What goal does Islamism have when it comes to society and government?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "05427872-f2e9-40a2-8c29-754d96f1cc05"
+            ]
+        },
+        {
+            "uuid": "a5832f9e-42e4-4894-ae35-708270fb8893",
+            "question": "What English chemist showed that fire only needed nitoaereus?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "3d73fb95-d96a-4d70-b4f3-5f9a47213e2b"
+            ]
+        },
+        {
+            "uuid": "f1c87ffb-46cb-4306-8270-1f156e6d9eb8",
+            "question": "What was the name of the Norman castle?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "aac8be10-c9eb-47a0-86d1-8c540e973b0d"
+            ]
+        },
+        {
+            "uuid": "73a6b622-45b6-461a-aa2b-818d859303a0",
+            "question": "What satellite was used when Sky digital was launched?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "5c7d9e5b-207a-4b74-9eeb-a081a4a04764"
+            ]
+        },
+        {
+            "uuid": "d8ee1d0f-5de6-4cfd-9efa-7724cb9b0337",
+            "question": "Who used the church to unify themselves?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d5c35f23-1b9c-4458-8bb6-919856b79f95"
+            ]
+        },
+        {
+            "uuid": "48e68414-e81b-4286-87b5-2d0f5734ee42",
+            "question": "What new product did Bank of America introduce in 1958?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "79e85efb-1916-49aa-aff3-13b569f22690"
+            ]
+        },
+        {
+            "uuid": "d1f301c1-f2cf-4976-8777-9891a2548d16",
+            "question": "In what year did BankAmericard change its name?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "79e85efb-1916-49aa-aff3-13b569f22690"
+            ]
+        },
+        {
+            "uuid": "326de42f-5281-489b-abc7-326a4a6e9cbf",
+            "question": "What type of cascade results when complement proteins bind to microbes and activate their protease activity?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "18cc453a-c194-49b3-944c-791750791e02"
+            ]
+        },
+        {
+            "uuid": "08c9b02b-b773-4238-9274-13f4656587cf",
+            "question": "What type of geologists give information about strain within the crystalline structure of the rocks?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c4ed5f1a-82be-453d-90ad-0c69bc8a0507"
+            ]
+        },
+        {
+            "uuid": "8b75b94f-5cd0-4102-80e6-8cc1509c949e",
+            "question": "What kind of experiments of rock deformation do structural geologists perform?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c4ed5f1a-82be-453d-90ad-0c69bc8a0507"
+            ]
+        },
+        {
+            "uuid": "4ca22ee7-ef2f-48ae-8535-16d0bd17918e",
+            "question": "What caused the spread of the Jacksonville fire in 1901?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "39286f36-e95c-45ad-8723-6e00430678ed"
+            ]
+        },
+        {
+            "uuid": "cd8c680f-3c73-46bc-a37c-3fdff553dd90",
+            "question": "When did Tugh Temur die?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d7660190-a6a7-4306-bf9f-e0dd94c4520e"
+            ]
+        },
+        {
+            "uuid": "1be732ac-5fd9-4ccd-a6ad-90a271cd88fd",
+            "question": "Constitutional impasse is different from civil disobedience because does not include what type of person?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "b020386c-d7e0-4505-9751-976d2164ba31"
+            ]
+        },
+        {
+            "uuid": "9c8c0b02-ff7a-4e7b-86c1-36b5f8aa8417",
+            "question": "When would a person be considered to be excising a constitutional impasse?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "b020386c-d7e0-4505-9751-976d2164ba31"
+            ]
+        },
+        {
+            "uuid": "e328195a-239e-417a-9dac-002542a6acfc",
+            "question": "Civil Disobedience is mainly performed by what population group?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "b020386c-d7e0-4505-9751-976d2164ba31"
+            ]
+        },
+        {
+            "uuid": "5208d5d7-0b74-4c99-b64d-ea423a068efa",
+            "question": "Informal imperialism is still dominant; however, less what?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "6b4f9608-63bd-4058-b08f-56ba262b38d0"
+            ]
+        },
+        {
+            "uuid": "8efe3334-bafb-4baf-956c-34b60aea60e3",
+            "question": "Who is currently speaker of the Scottish Parliament?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "3026af39-3067-4c86-816d-cc9076558d31"
+            ]
+        },
+        {
+            "uuid": "a5b8305b-4300-481d-ba9c-caef131d0b68",
+            "question": "Whose theory was the theory of continental drift?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "de07998b-b0c3-4c82-a4a7-6b93903d7ab4"
+            ]
+        },
+        {
+            "uuid": "45855064-98b8-4891-abcb-479b0b3e9557",
+            "question": "What does oxygen the basis for in combustion?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "1134b52c-c434-4474-b5ce-a4623afffe4e"
+            ]
+        },
+        {
+            "uuid": "e8fc9e31-7de8-4ea3-a4a9-e34d2c054634",
+            "question": "Downtown Santa Monica and Downtown Glendale are a part of which area?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "001212bd-07d4-4de5-8dd9-ab59fddb7f2d"
+            ]
+        },
+        {
+            "uuid": "49704aa7-504d-434a-8b86-d36396725050",
+            "question": "When did Kublai ban the international Mongol slave trade?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d3aba682-3c81-48d3-a498-2e7dbf8fc9d6"
+            ]
+        },
+        {
+            "uuid": "f00dc481-7e0c-4a0e-bfda-97e34cf1ee33",
+            "question": "Where can a tribute to the fall of Warsaw be found?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "a3ec5d80-0d12-465e-93dd-62e26a26e2b9"
+            ]
+        },
+        {
+            "uuid": "d31bedcf-cfc3-415d-b167-6c0caae5f0f4",
+            "question": "Where in Warsaw are patriotic and political objects connected with Poland's struggles for Independence found?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "a3ec5d80-0d12-465e-93dd-62e26a26e2b9"
+            ]
+        },
+        {
+            "uuid": "29224f40-55c1-46be-836c-da538bd74d54",
+            "question": "What is the name of matters outside the legislative ability of the Scottish Parliament?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "aec58dce-818c-4eef-ad79-0b230f814132"
+            ]
+        },
+        {
+            "uuid": "381bbcdb-71c9-4e74-bcb8-26192349139e",
+            "question": "Issues dealt with at Westminster are not ones who is able to deal with?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "aec58dce-818c-4eef-ad79-0b230f814132"
+            ]
+        },
+        {
+            "uuid": "9ee238d1-5d6d-46fe-8ac1-0c2762257353",
+            "question": "What did Olivier Roy state underwent a remarkable shift in the second half of the 20th century?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c2a206dc-5048-4ab9-b844-ebbae6cbbb77"
+            ]
+        },
+        {
+            "uuid": "fc973a69-958c-47d2-8d89-c6d1fe7457d3",
+            "question": "By which year did the American cars mpg start to improve?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "8f523795-3e6a-44a0-9a16-93c51aad06cd"
+            ]
+        },
+        {
+            "uuid": "8edcdc2e-2e60-46c6-8ae6-5476364fdf1f",
+            "question": "The analysis of stratigraphic sections such as drill cores is done by who?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "55c424a1-b14f-4265-bc9e-f149e714d4e5"
+            ]
+        },
+        {
+            "uuid": "725d5923-b334-4291-9471-b2ad0ff03095",
+            "question": "What is involved in a review of prescribed medications?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "401d25f1-e5db-44c9-b752-f72955535f11"
+            ]
+        },
+        {
+            "uuid": "f63ff4fb-b392-4f4e-9bc7-68a53be16f48",
+            "question": "At which level of education is this sport becoming more popular?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ac1bd096-c397-4023-a669-2a8fa54897db"
+            ]
+        },
+        {
+            "uuid": "5fa6e3d3-10cf-4dee-982b-2d87a39dbf4b",
+            "question": "What is the name of world renowned cellist is a former Harvard student?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "6700e400-13a9-468a-af44-a72f6edf64bd"
+            ]
+        },
+        {
+            "uuid": "85eee556-f9dc-4435-a073-df88f2102278",
+            "question": "What is very important for the growth of the economy?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "452f0b13-3d37-4d9b-b22a-dc442d84f7d4"
+            ]
+        },
+        {
+            "uuid": "1919b339-0137-4153-9e61-b3970d46e2da",
+            "question": "What type of conservation effort is gaining attention in the Amazon?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "27e8f6b0-9b25-479c-9479-964ad2f3298e"
+            ]
+        },
+        {
+            "uuid": "98fe7729-3054-4d62-ba68-52b0e8a673b2",
+            "question": "Indigenous territories are largely being destroyed in what two ways?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "27e8f6b0-9b25-479c-9479-964ad2f3298e"
+            ]
+        },
+        {
+            "uuid": "3103f02a-2492-4002-befd-5ce2a03a3f1e",
+            "question": "What district of Warsaw chose the President between 1994 and 1999?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "045b4ef1-2e47-4843-8cea-518accaa77c9"
+            ]
+        },
+        {
+            "uuid": "ad915928-4382-48a5-989e-d80fc90cc400",
+            "question": "What Dutch document condemned the Spanish Inquisition?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "15589aff-872b-4380-a959-054522b7edbd"
+            ]
+        },
+        {
+            "uuid": "e5e5470f-5d74-49cd-baa1-65938d6d70c3",
+            "question": "What was the Dutch leader's religious affiliation?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "15589aff-872b-4380-a959-054522b7edbd"
+            ]
+        },
+        {
+            "uuid": "04e494d9-a6bf-44ed-8651-5d2974119d00",
+            "question": "The majority of building construction jobs are what?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "43e0e01a-3489-4c8b-8ee2-47ce6f7c2eb1"
+            ]
+        },
+        {
+            "uuid": "e446874c-a80d-4576-a824-28549a536f6b",
+            "question": "Where did the residents of Antioch flee to?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "8722f80f-4bed-4f05-bea5-c74c0983ba8f"
+            ]
+        },
+        {
+            "uuid": "8f28e637-52f4-4324-83f8-64039868a8a0",
+            "question": "What was the bubonic plague mechanism reliant on?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "3531bfcb-a606-45ec-8558-d013e63e6a23"
+            ]
+        },
+        {
+            "uuid": "d31b6396-ea76-478e-b1af-900a9e0956d5",
+            "question": "How many Huguenots emigrated to North America as colonists?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "735ed674-3a63-4faa-ab47-25ad01e4bd15"
+            ]
+        },
+        {
+            "uuid": "045adc66-0dc8-417e-be87-1bd44c1b34f6",
+            "question": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "7e0d5622-713c-4869-8f6e-e50405cee4f9"
+            ]
+        },
+        {
+            "uuid": "a230e977-dd26-4fef-8b29-9dc706866627",
+            "question": "What is the metric they use to determine how busy airports are?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "64c151ed-169d-47c5-9515-c71f65e0ad6f"
+            ]
+        },
+        {
+            "uuid": "13710901-598b-4ca4-9742-5b20dc22c52b",
+            "question": "Which airport is home to the busiest single runway in the world?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "64c151ed-169d-47c5-9515-c71f65e0ad6f"
+            ]
+        },
+        {
+            "uuid": "8025165d-09db-4606-b587-c083d7a8119d",
+            "question": "Roughly, how much oxygen makes up the Earth crust?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "5822472f-8e41-438c-b073-382886638b12"
+            ]
+        },
+        {
+            "uuid": "cba06511-24f7-427e-ada4-a6f49eda85ab",
+            "question": "Of what group in the periodic table is oxygen a member?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "5822472f-8e41-438c-b073-382886638b12"
+            ]
+        },
+        {
+            "uuid": "3305df61-0245-4013-9a80-7f31257a8c41",
+            "question": "What is one general concept that applies to elements of commutative rings?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "84f0272b-7d3b-4219-93a7-29029a6261aa"
+            ]
+        },
+        {
+            "uuid": "85f7ea40-4cba-4c5c-bba2-518833ba4ce5",
+            "question": "Who were the current rights holders for the Primer League?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "b0d5ea7f-dcab-4a39-99aa-cf8de17b9296"
+            ]
+        },
+        {
+            "uuid": "f96658ac-b796-4e7f-bb04-a86069e72871",
+            "question": "What is the name of the post-independence government school system in Malaysia?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "fe51a156-6998-462d-9d86-2ae54a0f93b4"
+            ]
+        },
+        {
+            "uuid": "950a1805-6d81-405b-9813-da4bace6c5f1",
+            "question": "What are the two symbols that signify pharmacy in English-speaking countries?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "aeafe947-6a68-4e57-bee0-03d5ca0c26a2"
+            ]
+        },
+        {
+            "uuid": "15a064a8-b460-49f0-911a-2ad8faa132c8",
+            "question": "What medical appliance can be a concern for oxygen toxicity?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "89306e6f-d62e-423c-b005-abdcecbe383f"
+            ]
+        },
+        {
+            "uuid": "2b151609-ed1f-4763-a2e5-a92e4797d4db",
+            "question": "Who ordered the Stern Review?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d4a18a2e-c80b-440e-a39d-f3f9c95d1ea5"
+            ]
+        },
+        {
+            "uuid": "15d5473f-0f38-495e-a01c-b3e3adf1f6cd",
+            "question": "What conditions must be met for a prescription for a controlled substance to be valid?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "e4cdda40-8aa4-4e52-a6e4-9d18108aa8ba"
+            ]
+        },
+        {
+            "uuid": "3000145d-44b8-4419-9d0c-0c148c2c56ce",
+            "question": "Who stated a change of the length of the Rhine?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c0a7af27-59fa-4ff8-a513-6ceea9b7b89e"
+            ]
+        },
+        {
+            "uuid": "2dcae7f4-6891-4c8b-976f-3a5abe7a09e1",
+            "question": "A forced trade agreement between two countries would be an example of what?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "613f1bda-7a26-454a-9552-d9304f67962e"
+            ]
+        },
+        {
+            "uuid": "f15c91f1-d648-4ba1-a0ae-4efd34754e0e",
+            "question": "Why was there a depreciation of the industrialized nations dollars?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "b656d855-2695-4940-94d3-84d4834502df"
+            ]
+        },
+        {
+            "uuid": "5206b839-6615-4e84-a99d-9ef4e2c49b8f",
+            "question": "Iran has assisted what type of groups in Iraq?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "b075a7bf-053d-47f2-9a9c-d00fae9b9319"
+            ]
+        },
+        {
+            "uuid": "ce358f30-0725-4c6b-a812-532479c01af9",
+            "question": "What British General negotiated at Montreal?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "2632e39f-1f48-41e3-93e8-2aee418c585c"
+            ]
+        },
+        {
+            "uuid": "dbbb876b-9e40-4220-be81-a37599ae62c8",
+            "question": "Ctenophora are less complex than which other phylum?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f0ed5585-467d-4be6-b4ba-e49abbcebe72"
+            ]
+        },
+        {
+            "uuid": "17581c27-e30c-47d2-8f04-bd975e272354",
+            "question": "Which phylum is more complex than sponges?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f0ed5585-467d-4be6-b4ba-e49abbcebe72"
+            ]
+        },
+        {
+            "uuid": "27d03e30-0c32-42fa-8ab9-572ecc1344b8",
+            "question": "What does ctenophore use to capture prey?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f0ed5585-467d-4be6-b4ba-e49abbcebe72"
+            ]
+        },
+        {
+            "uuid": "2adf7de5-ad32-4654-9ed2-f546668d73ef",
+            "question": "What do ctenophore use to capture their prey?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f0ed5585-467d-4be6-b4ba-e49abbcebe72"
+            ]
+        },
+        {
+            "uuid": "267972b3-1e74-4657-80ca-54d7958b5fd5",
+            "question": "Which two groups have cells bound by inter-cell connections and membranes, muscles, a nervous system and sensory organs?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f0ed5585-467d-4be6-b4ba-e49abbcebe72"
+            ]
+        },
+        {
+            "uuid": "c37210dd-8ef6-4ba1-a498-26314fc46947",
+            "question": "Which group of ctenophore are are hardest to study?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "66080c45-adf0-4a36-a484-80d314d300c8"
+            ]
+        },
+        {
+            "uuid": "2cb798be-80ca-4f70-9887-875d0fd6c9b9",
+            "question": "What theorem was implicated by Manuel Blum's axioms?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "a9ab00af-cec8-43f5-9c42-33fd196087b9"
+            ]
+        },
+        {
+            "uuid": "d87f9884-ae13-45cd-8bb3-51aa96189164",
+            "question": "The principle of faunal succession was developed 100 years before whose theory of evolution?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "eb21c21b-d0ed-407b-8b1a-30da6d7ef1c4"
+            ]
+        },
+        {
+            "uuid": "987cbe36-c84a-4823-b149-f859f6d6c558",
+            "question": "What is another word for long, planar igneous intrusions?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "6526c771-bdc6-44f3-8f4f-80ac95a2fdb0"
+            ]
+        },
+        {
+            "uuid": "bb5b8b31-6b84-4e2e-90b2-bb1de970ad5c",
+            "question": "In what sort of places are dry cooling towers used?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "bfeb75de-1e25-4d6c-872c-4c48bd0abedf"
+            ]
+        },
+        {
+            "uuid": "c7558025-4837-4470-8a38-232eed2395c7",
+            "question": "Ministers of what faith were trained by the university in early years?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "edee6a0b-ee49-4e41-bdde-f5e3f41b2551"
+            ]
+        },
+        {
+            "uuid": "e7ac108a-34fe-4e09-bcc7-8b465816757d",
+            "question": "Besides the study of prime numbers, what general theory was considered the official example of pure mathematics?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "89e2f792-7e63-40a7-8c3a-20a0d747edf5"
+            ]
+        },
+        {
+            "uuid": "ba9fd754-279f-49d8-9cb7-3ffaac3fd584",
+            "question": "What type of number generators make use of prime numbers?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "89e2f792-7e63-40a7-8c3a-20a0d747edf5"
+            ]
+        },
+        {
+            "uuid": "e3b03d7a-156d-415c-b766-7ba45682129d",
+            "question": "Antibodies transported from the mother to an infant via the placenta is an example of what type of short-lived immunity?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "0fe0b674-3ab2-45a6-8be3-6ac5b5bbed72"
+            ]
+        },
+        {
+            "uuid": "3054a1a8-2c5c-4704-b7a9-91c372265c07",
+            "question": "Who deployed its army into Afghanistan in 1979?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ca21f9a6-ba47-40a7-ac42-eef113316bc3"
+            ]
+        },
+        {
+            "uuid": "917bf957-9e0a-4640-badc-8024c63a7c89",
+            "question": "What percentage of the vote for a Scottish Assembly in favor of it?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "7301f01f-61db-428d-9ad9-d0a4777923b6"
+            ]
+        },
+        {
+            "uuid": "42fa58ff-22f7-4238-bbe4-224b6f085307",
+            "question": "Why might rats not be responsible for the plague?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "1ef1bfbd-dcdb-4e65-8d37-28fa961102dd"
+            ]
+        },
+        {
+            "uuid": "a02ad670-5949-48c1-b2d6-896eecf59844",
+            "question": "Why would one want to give more punishment?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "503b3761-57ed-44e2-b84b-856cfde40a11"
+            ]
+        },
+        {
+            "uuid": "bbd46c00-848e-41fa-9f42-854415b45ec1",
+            "question": "After the operators are warned by the escape of the steam, what may they then do?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "7d678b78-ed13-436f-aa2e-21621f7c50ae"
+            ]
+        },
+        {
+            "uuid": "2a60b86f-8fae-4991-8da6-e3ca3b6cbee6",
+            "question": "Who is to blame for acting unjustly?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "16aa92d1-baf5-4811-a00f-abc76e36681c"
+            ]
+        },
+        {
+            "uuid": "a0fe05bc-d27b-413f-aa73-d1ac8a1b34f3",
+            "question": "Anarchists do not want to accept punishment for what reason?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "39d71248-f17d-4d2e-9963-eea8c73f45ed"
+            ]
+        },
+        {
+            "uuid": "34581e61-ab91-42f2-837d-59210fb6700c",
+            "question": "Europe first colonized the Americas, then Asia, but what continent was third?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "37fc1bd0-7909-40b6-abe4-289f1a09dbf0"
+            ]
+        },
+        {
+            "uuid": "100dae71-b004-491b-ba61-c0dcf52a8665",
+            "question": "During what period did downtown Fresno thrive?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "bffa24c6-243d-46ee-9973-8408bbf60866"
+            ]
+        },
+        {
+            "uuid": "9c8fa27e-b049-4f2b-ac6d-16dd5c8ca79b",
+            "question": "Who are FDA laws against importing medications aimed at?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "15d9f6b9-191a-4bd2-969c-a191eeb5fb8b"
+            ]
+        },
+        {
+            "uuid": "b2c71183-1256-4565-a20f-0d6557124269",
+            "question": "What happens to the GDP growth of a country if the income share of the top 20 percent increases, according to IMF staff economists? ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "1e8f915e-3244-4150-8ee5-0b044ee1ecfd"
+            ]
+        },
+        {
+            "uuid": "5f50dddf-9b7a-4de8-834f-f10ad3446d59",
+            "question": "At Millingen aan de Rijn where the Rhine splits, what does it change it's name to?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "571c017d-9394-435e-8f78-5059709222a9"
+            ]
+        },
+        {
+            "uuid": "51cd97f7-a711-4142-aa51-5242b5a98988",
+            "question": "Who did Dinwiddie order to address French in Virginia territory?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "2b836ca4-6fef-4d96-b78b-a4dcc73ae0f2"
+            ]
+        },
+        {
+            "uuid": "ce9ec2c3-a16c-44a2-a439-5c76c686ccd4",
+            "question": "How far from the Yard is the Quad located?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "4b9fad85-6277-418e-b329-3bcf8e289940"
+            ]
+        },
+        {
+            "uuid": "038714dd-1953-4f37-a74f-e25d2f3f022a",
+            "question": "What are clades?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "bce16895-cfd3-483f-bc84-4e69e71191ac"
+            ]
+        },
+        {
+            "uuid": "0f5381ac-a526-4b81-b25e-25d6dac57d03",
+            "question": "What Yuan policies did Muslims dislike?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "83e1e964-2b0b-4187-909b-b59fada9812a"
+            ]
+        },
+        {
+            "uuid": "e8dd1b8c-1267-4b21-b777-fcbb9df11ff0",
+            "question": "Who founded the Ming dynasty?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "83e1e964-2b0b-4187-909b-b59fada9812a"
+            ]
+        },
+        {
+            "uuid": "26033eb1-81e1-4177-a8b4-78829ea7413c",
+            "question": "Where is the Asian influence strongest in Victoria?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "8857b229-9ccc-4798-9e9f-c77c4159bb82"
+            ]
+        },
+        {
+            "uuid": "ca03d049-fe6c-4d1d-9b00-c584de75a926",
+            "question": "Where was the 1857 riot?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "8857b229-9ccc-4798-9e9f-c77c4159bb82"
+            ]
+        },
+        {
+            "uuid": "5a29c8c4-e878-4401-9ce3-793528aede9e",
+            "question": "How are the explanations supported?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "7e932c58-4150-4745-a988-c0bfae74a8c1"
+            ]
+        },
+        {
+            "uuid": "6c8589f9-7a0c-4d59-a98e-28c2138b850e",
+            "question": "What is the largest suspension bridge in Germany?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "93a2e992-4169-439f-8514-066776074cad"
+            ]
+        },
+        {
+            "uuid": "097f9bf2-3522-481b-8925-e485c2d50a2b",
+            "question": "What is the largest port in Europe called?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "93a2e992-4169-439f-8514-066776074cad"
+            ]
+        },
+        {
+            "uuid": "9c53b56a-f41a-42ea-bde9-42d896a2436c",
+            "question": "What can the non-elected members from the Scottish Government not do?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "659acb97-d487-4796-bdde-40c1aa72c39f"
+            ]
+        },
+        {
+            "uuid": "ad421d91-87fe-4620-aa5b-0fe1a6c2a4db",
+            "question": "In what battle were the Mongols defeated by the Tran?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "318c16cb-492b-42d6-800d-a2681bab0709"
+            ]
+        },
+        {
+            "uuid": "38d22829-3fa8-46dc-9674-80b61805823c",
+            "question": "______ In both liquid and gas form can fastly result in an exlposion.",
+            "is_answerable": true,
+            "documents_uuids": [
+                "6e762e86-a433-4496-ab00-c524fd882d08"
+            ]
+        },
+        {
+            "uuid": "b0583465-6fcc-4eab-b807-7b1354f86e27",
+            "question": "What is the most important problem in the United States and elsewhere?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "97655bf7-c00e-4949-b685-0f8af3f7dbc9"
+            ]
+        },
+        {
+            "uuid": "8e44a1bd-0bc4-4d41-96d1-227ceff73890",
+            "question": "What court is able to interpret European Union law?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "b732aecf-3ae2-4a5e-824c-9ff636fe99e9"
+            ]
+        },
+        {
+            "uuid": "430a2f1a-9c91-4864-b1cb-df78f75749a4",
+            "question": "When was the confederation of the Rhine?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "af772e89-7c3a-44ce-82c1-69c57a514ec8"
+            ]
+        },
+        {
+            "uuid": "69b6ab8b-8ced-4b82-925f-b40d127974c6",
+            "question": "Who led New France reinforcements in 1756?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "fd3817ba-bc0d-4d87-8305-553d0a6aad4e"
+            ]
+        },
+        {
+            "uuid": "5c31b56e-ff04-4dc3-9ca7-a3ad6fc75d39",
+            "question": "How many housing units were there in 2000?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "48a87291-1cb8-43fa-a137-b6903e275a9e"
+            ]
+        },
+        {
+            "uuid": "31e4773c-b1bc-41f0-9d74-3ad793ec5339",
+            "question": "During the compression stage of the Rankine cycle, what state is the working fluid in?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "337889ad-0c22-4ccc-bddb-8f247df64977"
+            ]
+        },
+        {
+            "uuid": "8dab2d4c-3fe9-40bd-bdad-028044f4e1a6",
+            "question": "What ended Turkish imperial Ambitions?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "2ed54080-0a77-4083-a2bc-311e1e686711"
+            ]
+        },
+        {
+            "uuid": "6547162f-43a3-4a3d-881b-ca53aebde18c",
+            "question": "In what country is Normandy located?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "0671e380-0c31-4fc3-bc2a-6d2e26205ef1"
+            ]
+        },
+        {
+            "uuid": "fb0c3400-020c-4049-8ea1-d338a278ea04",
+            "question": "The term \"southern\" California usually refers to how many of the southern-most counties of the state?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "a3002f34-138c-47c7-adcc-4ee5ecd920de"
+            ]
+        },
+        {
+            "uuid": "06eb7c40-e587-41a8-a77d-08bdafe493af",
+            "question": "Other than Point Conception, what landmark is used in the other definition of southern California?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "a3002f34-138c-47c7-adcc-4ee5ecd920de"
+            ]
+        },
+        {
+            "uuid": "e05903bc-904c-4d4c-9241-a7aae6620dab",
+            "question": "Point Conception is an example of a landmark among what boundary of southern California?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "a3002f34-138c-47c7-adcc-4ee5ecd920de"
+            ]
+        },
+        {
+            "uuid": "6c516a8d-26c9-4b3c-9715-ef56c62ddb17",
+            "question": "How many people work for Kunskapsskolan schools?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "61e8cddd-d076-40cf-a341-829062933f71"
+            ]
+        },
+        {
+            "uuid": "7e16156e-d20c-4531-90f0-ea1a2c2fcad6",
+            "question": "When did Galor and Zeria show new information about inequality?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "843986d5-229b-47bb-817a-9373a03736c4"
+            ]
+        },
+        {
+            "uuid": "6ffd13e5-3422-41fe-a368-392092dd8403",
+            "question": "Inequality in the presence of credit market imperfections has what kind of effect on human capital formation?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "843986d5-229b-47bb-817a-9373a03736c4"
+            ]
+        },
+        {
+            "uuid": "2022909d-e2aa-4bcc-8f29-63e4701132fd",
+            "question": "How much did Sky bid to win the 4 broadcast pacakges they bought?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "6d93f976-fdfe-4f95-af81-60e620be0757"
+            ]
+        },
+        {
+            "uuid": "8c4b1b85-085f-47bd-a5f0-a24f8de13dda",
+            "question": "What substance is used to make high quality liquid O2?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "1ba43eb6-d7d4-424e-a824-f83c91122f6b"
+            ]
+        },
+        {
+            "uuid": "30a03d42-ee4b-4553-9db6-eeb24d996b7e",
+            "question": "Who led the attack of the French colony in 1565?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "7eab050b-8d2e-47a4-9af1-b73e3361926d"
+            ]
+        },
+        {
+            "uuid": "467678aa-0eb4-48cf-af07-00ab269e369c",
+            "question": "What was Warsaw ranked the 7th greatest of?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "1299ff4f-0a9b-4fdb-844e-e69f74ed02ef"
+            ]
+        },
+        {
+            "uuid": "29e8aba9-fb69-4adb-a239-28769a801837",
+            "question": "What is being described when simplicity of geometrical forms are teamed with inspiration from the Roman period?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "2d3c8c5b-2f9d-4fb1-9e58-0d042cc2e24f"
+            ]
+        },
+        {
+            "uuid": "be928ea3-937d-49c4-8c6b-5623ea7aab1f",
+            "question": "What South African industry descended from Huguenot settlers?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "8785efc9-4189-49fb-99fb-8b83ae11411a"
+            ]
+        },
+        {
+            "uuid": "bab1e9e6-5fd9-4223-915c-7aaba5980504",
+            "question": "What characteristic identifies the French ancestry of some South Africans?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "8785efc9-4189-49fb-99fb-8b83ae11411a"
+            ]
+        },
+        {
+            "uuid": "085241b0-256c-4c0b-a9b3-66fa08471e70",
+            "question": "Which Treaty protects the freedom of establishment and the freedom to provide services?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "90da9f9d-2c3e-492a-a396-1ba2cd6a533a"
+            ]
+        },
+        {
+            "uuid": "4de909cb-f01b-4792-8fe0-85eaa0ca9d4b",
+            "question": "In Gebhard v Consiglio...Milano, the requirements to be registered in Milan before being able to practice law would be allowed under what conditions?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "90da9f9d-2c3e-492a-a396-1ba2cd6a533a"
+            ]
+        },
+        {
+            "uuid": "8588e3f5-b6ab-4a7b-989f-20995ca62367",
+            "question": "What is the bend of Rhine in Basel called? ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "e4bc4fc5-5498-422a-8631-86f62fa34aa7"
+            ]
+        },
+        {
+            "uuid": "1365b3da-b93c-4870-9e44-77c7e3824916",
+            "question": "What monastery did the Saint-Evroul monks establish in Italy?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "cdee63df-6bf9-4de5-a1c7-d4e4ea57fc9e"
+            ]
+        },
+        {
+            "uuid": "b6348f9b-0700-4af8-92ad-0a6925e8ba1b",
+            "question": "What type of compounds such as acetone,contain oxygen?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "00c2cd4e-61bf-44d1-8223-c3d7019783fe"
+            ]
+        },
+        {
+            "uuid": "b9b8014d-45ee-46df-980b-10bc33064c88",
+            "question": "In what group of compounds is oxygen a necessary part?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "00c2cd4e-61bf-44d1-8223-c3d7019783fe"
+            ]
+        },
+        {
+            "uuid": "d9354d8a-ea68-4dcd-93ed-0d780b9dbd4e",
+            "question": "What would a parent have to pay to send their child to a boarding school in 2012?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "49591431-7c88-4ec2-b66b-77c7a0947640"
+            ]
+        },
+        {
+            "uuid": "c33d71aa-e049-4a88-b333-a6850d5e5ed3",
+            "question": "What coalition rose up to oppose Louis XIV's France?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "fc216985-dbd0-4db7-bc77-cda2da6484ca"
+            ]
+        },
+        {
+            "uuid": "eb5895c4-51de-47d4-99a5-c8359a9414c2",
+            "question": "Where did Huguenots and Walloons settle in England?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "a38e6a73-2903-44d3-9d24-f0525e2796fa"
+            ]
+        },
+        {
+            "uuid": "2e97c14a-101e-4eee-9944-be2e8cdf0e43",
+            "question": "What social construct did Huguenot refugees in Canterbury practice?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "a38e6a73-2903-44d3-9d24-f0525e2796fa"
+            ]
+        },
+        {
+            "uuid": "6f307442-bf62-4c69-bda8-f590f1bafc7a",
+            "question": "What is located on the site of The Weaving House currently?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "a38e6a73-2903-44d3-9d24-f0525e2796fa"
+            ]
+        },
+        {
+            "uuid": "200f96cb-6d07-442a-97b3-fc599fd05479",
+            "question": "What non-Chinese empire did the Yuan dynasty succeed?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "952a7103-0c7a-4c29-8f5f-21219bdbf9b3"
+            ]
+        },
+        {
+            "uuid": "eef290f7-80a7-4166-bee7-4b360153e4b9",
+            "question": "Who was Kublai Khan's grandfather?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "952a7103-0c7a-4c29-8f5f-21219bdbf9b3"
+            ]
+        },
+        {
+            "uuid": "f3754b93-f208-4746-bbc4-af52ba59444c",
+            "question": "What is the famous rock near Sanke Goarshausen?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "da15778f-1612-4e20-9a13-7028e1c09ec9"
+            ]
+        },
+        {
+            "uuid": "1269ec2b-85b7-44e1-a658-11592a5531e5",
+            "question": "What is considered the epitome of the Rhine romanticism? ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "da15778f-1612-4e20-9a13-7028e1c09ec9"
+            ]
+        },
+        {
+            "uuid": "01226884-ca8e-4269-bb45-d393800839d6",
+            "question": "In the fall quarter of 2014, how many students signed up for the college?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "e7f474d2-3ad0-4768-88b0-933e08a48ad0"
+            ]
+        },
+        {
+            "uuid": "9cf441a8-8762-4599-b2d7-7fc6551bcffe",
+            "question": "What city north of New York was settled by Huguenots?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "44824af8-5770-412e-93a4-4b0d7cf5f2df"
+            ]
+        },
+        {
+            "uuid": "e6678425-38d6-4346-bc0f-32a142f3bd9e",
+            "question": "What was the civil disobedience performed at the test site?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ca722f47-4e37-49aa-a250-a2d9a363e564"
+            ]
+        },
+        {
+            "uuid": "30f4b2cc-da58-4425-9f2b-0689fe17fc01",
+            "question": "When did Wei Yilin die?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "50ea1948-ca3c-4ce4-9053-5d6b123e8bed"
+            ]
+        },
+        {
+            "uuid": "1b66be41-6a24-40e5-8d32-0ea7d7e42154",
+            "question": "Who led Richard's troops when Cyprus was conquered?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "1e0cc904-bd81-4b1a-b588-ebf3b002340f"
+            ]
+        },
+        {
+            "uuid": "bb59d7ea-d7e9-4100-8c30-7e7f0ec42676",
+            "question": "According to Oxfam, the 85 richest people have wealth equal to how many average people?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "dc9d7a85-43fa-4223-9528-2dbb98f9cb12"
+            ]
+        },
+        {
+            "uuid": "6c3343e9-2b09-4401-b5dc-f9fdabd8c7f6",
+            "question": "What type of venue is the Teatr Wielki?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "a444cbaa-4167-49b9-8eb8-196e91e1773a"
+            ]
+        },
+        {
+            "uuid": "5bf9a847-084a-4d87-963e-1415178d23f0",
+            "question": "How many miles does the dust travels over the Atlantic Ocean?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "7343b2d7-e02d-432c-9a10-bc78f69c5c29"
+            ]
+        },
+        {
+            "uuid": "17444ea2-95a2-4f6a-842b-348542f85254",
+            "question": "What organization runs the satellite that measured dust that landed on the Amazon?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "7343b2d7-e02d-432c-9a10-bc78f69c5c29"
+            ]
+        },
+        {
+            "uuid": "43eef8ee-df2d-4b2e-8cfa-59a4b9b4887a",
+            "question": "In the Philippines, what percentage of secondary school students attend private schools?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "b83d833b-2855-45f0-a193-c07233e2d575"
+            ]
+        },
+        {
+            "uuid": "c9a35a5d-2d3f-40ac-8c3d-02f21400f497",
+            "question": "What career does Joseph Stiglitz have?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "4a03f91e-53ae-4ee0-884c-7add8b3caa40"
+            ]
+        },
+        {
+            "uuid": "e8008ddc-0830-413c-844a-e878b282c52a",
+            "question": "What is one method of achieving aspirational consumption?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d13daee5-4bcc-44d7-bdcc-7c53d15f679b"
+            ]
+        },
+        {
+            "uuid": "e5c09bc5-f40b-40dd-89e9-9effea130eb0",
+            "question": "Where does the Delta in the Netherlands begin?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "595f7f9f-f23f-401c-9246-0679edb96b7f"
+            ]
+        },
+        {
+            "uuid": "d1fde2a8-5215-4bda-a12a-556ebfc9f473",
+            "question": "Where do plenary meetings take place?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "3114a3cf-61d6-4fe5-a338-95ce3c77e20d"
+            ]
+        },
+        {
+            "uuid": "56d9d9bc-a47d-4507-9909-e1650b2ca26c",
+            "question": "What book of the Bible discusses civil disobedience?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "dba97b63-18e5-4fbd-89b0-72c1474efbea"
+            ]
+        },
+        {
+            "uuid": "67bf1965-cdf4-4f42-b281-bb29cde03639",
+            "question": "Which type of livestock was the argricultural region known for?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d7e8707d-d4af-43ec-9a19-1038f761be70"
+            ]
+        },
+        {
+            "uuid": "4f3fa09e-d4f8-4ad5-b1be-30d038b30b20",
+            "question": "What happened to the ground water in the Rhine during the Rhine straightening program?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "0df8c436-5731-46f0-8424-a3cd809a3101"
+            ]
+        },
+        {
+            "uuid": "1cdc8499-84f7-40be-9ec6-55b096fd41fe",
+            "question": "Which canal was dug in France to carry Rhine's water?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "0df8c436-5731-46f0-8424-a3cd809a3101"
+            ]
+        },
+        {
+            "uuid": "ee6d1ec5-ede1-4a13-81a8-861364d0314d",
+            "question": "What is European Union Law?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "72bc52be-179f-4de6-b45f-109ae7cc5c9e"
+            ]
+        },
+        {
+            "uuid": "adf932a9-1c01-443e-9f24-428b3face60c",
+            "question": "What are the three main sources of European Union law?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "72bc52be-179f-4de6-b45f-109ae7cc5c9e"
+            ]
+        },
+        {
+            "uuid": "368113a6-2003-4f8e-869a-28ad21720ace",
+            "question": "What is the legislature of the European Union comprised of?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "72bc52be-179f-4de6-b45f-109ae7cc5c9e"
+            ]
+        },
+        {
+            "uuid": "43ed2e61-7b5f-4fb8-b9d0-64d1ae03aae9",
+            "question": "Who provided a philosophical discussion of force?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "7328d657-023b-43ea-9b1c-ed03f170d0ee"
+            ]
+        },
+        {
+            "uuid": "dd77f032-40ea-4299-ac61-25b9463d9d0d",
+            "question": "Who was one of the earliest examples of Civil Disobedience against?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c3e777b3-703e-4356-a334-814f3292fe40"
+            ]
+        },
+        {
+            "uuid": "13df0991-8b33-4d59-876e-1b77f771cd7c",
+            "question": "Whose former headquarters was the WSE located in until 2000?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "2299d061-30e5-4a3e-a514-31042f7c0156"
+            ]
+        },
+        {
+            "uuid": "114fe3e4-72b4-4c41-ac5c-64ff0bb772c6",
+            "question": "What does computational complexity theory most specifically seek to answer? ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "7b66914e-9989-403a-84d5-a1eee6a68078"
+            ]
+        },
+        {
+            "uuid": "33631f4e-0d50-4ad7-8871-b13f7d5b11a1",
+            "question": "Why should someone not commit a crime when they are protesting?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "381d4555-73ac-494d-a4a7-275828ccaf34"
+            ]
+        },
+        {
+            "uuid": "a9b600e0-888d-4ff9-98c1-7f58f3438af7",
+            "question": "What does the inability to separate Islam from Islamism lead many in the West to support?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "48fdf9f9-16d6-4b76-96d0-b163d8df67c1"
+            ]
+        },
+        {
+            "uuid": "1eb20497-889d-4d60-9b97-11a54ccd15f9",
+            "question": "What kind of rail system is Metro Trains Melbourne?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "de8cdcf8-d06a-4af9-b581-efe8c13b01e6"
+            ]
+        },
+        {
+            "uuid": "d410256d-1384-46cf-a3bd-95da1ebdd0fb",
+            "question": "Who upon arriving gave the original viking settlers a common identity?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "650e7008-6edb-4543-9042-2993d7078598"
+            ]
+        },
+        {
+            "uuid": "384ef5fe-cf48-4f92-9e72-3480014b3d5a",
+            "question": "About how many Walloons and Huguenots emigrated to England and Ireland in this era?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "3bc91a60-c9fe-46a9-b32a-58a0a0387839"
+            ]
+        },
+        {
+            "uuid": "b5777c84-8c49-4b50-a232-6943ae41a9ba",
+            "question": "Hobson argued that imperialism was an international what?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "3d48c8e5-60cc-43f5-a2b4-691f92eab54e"
+            ]
+        },
+        {
+            "uuid": "3ecbd216-cabd-434d-a5f7-8687b030a4f8",
+            "question": "How are laboratory measurements of forces determined?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "e590b5f6-b75e-4b67-bac1-babc288f8bd3"
+            ]
+        },
+        {
+            "uuid": "7b391251-c6c7-4779-bb63-f171b82696b5",
+            "question": "When did Herve serve as a Byzantine general?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "67ac0e29-b162-474f-a0d8-c83a2764d505"
+            ]
+        },
+        {
+            "uuid": "789ea0b0-f79f-41d4-bc74-22819fa9b59a",
+            "question": "Why did the European nations and Japan separated themselves from United States during the crisis?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c1248cf3-8651-4df1-a6b0-6bf6418b2207"
+            ]
+        },
+        {
+            "uuid": "e4730aa8-4016-4b3e-bf9c-9c00e6af4e21",
+            "question": "Which noble helped establish the Huguenot settlement in Saarland?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "cb02746c-b228-4f99-9163-9e4c76633d9c"
+            ]
+        },
+        {
+            "uuid": "07f75e69-8cf1-4139-a063-8d2b4a7da496",
+            "question": "After what event did the Spanish concede Florida to Britain?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f5086445-2159-429a-a949-a39e3815761f"
+            ]
+        },
+        {
+            "uuid": "2e206d66-6e50-4e36-a28e-e69d82978c43",
+            "question": "What should be avoided when talking to authorities?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "639efff4-aa96-4f48-9119-173b1881ca48"
+            ]
+        },
+        {
+            "uuid": "4376c3ff-43a1-4c10-8e35-236ccf782187",
+            "question": "What has given the American economy a tendency to go \"from bubble to bubble\"?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "e8794c20-0f9a-4897-9d46-ba57b3534d1a"
+            ]
+        },
+        {
+            "uuid": "ac9192bf-5852-429e-a4d7-c46227e6b0b8",
+            "question": "What mountainous region is Lake Constance by?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "80a46539-bc30-4959-b229-170a0cc8b2fc"
+            ]
+        },
+        {
+            "uuid": "c22e2835-1b14-4fed-a40b-cb20ce6f0d12",
+            "question": "Lake Constance separates the German state Bavaria from what other one?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "80a46539-bc30-4959-b229-170a0cc8b2fc"
+            ]
+        },
+        {
+            "uuid": "e50befb6-0337-43fb-9483-5efe6e2c8c5d",
+            "question": "Which religion did Kublai prefer?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d4722b30-d724-4883-94b7-f2dd2174a251"
+            ]
+        },
+        {
+            "uuid": "88912b89-b8b8-4f3f-859b-153cffd12f47",
+            "question": "For a field F containing 0 and 1, what would be the prime field?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f75723d7-b071-4347-b074-eb2c99a8dbcc"
+            ]
+        },
+        {
+            "uuid": "84414506-94d7-47db-9078-ece159959280",
+            "question": "Who had established the Russian empire to its former glory prior to 1921?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f5f7111f-6940-4b8f-b311-bc6bec878a30"
+            ]
+        },
+        {
+            "uuid": "50b241de-22ca-4ce2-a7f5-9c48205a763f",
+            "question": "What is the highest peak in Victoria?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f46d404e-8024-48ea-bff7-4926eaaa27a5"
+            ]
+        },
+        {
+            "uuid": "30e0cfc8-8891-4601-89f8-84887cc94eed",
+            "question": "What did the use of steam engines in farming lead to?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d9c83a57-2b14-4ecd-a5a1-b02c4cf31f9f"
+            ]
+        },
+        {
+            "uuid": "e11913a4-7a43-4404-a4a3-346e5b946194",
+            "question": "In what year did developers Billings & Meyering acquire the Alta Vista Tract?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "625a46f5-bfff-451a-b904-fbdfa083b03e"
+            ]
+        },
+        {
+            "uuid": "98de075f-a737-4272-9247-3128c4765b61",
+            "question": "How many homes did the Alta Vista Tract have five years after Billings & Meyering acquired it?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "625a46f5-bfff-451a-b904-fbdfa083b03e"
+            ]
+        },
+        {
+            "uuid": "7aa057af-21ab-490b-8928-c6f1332071c5",
+            "question": "Where does a canonball dropped from the crow's nest of a ship actually land?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "e9f743e2-5a95-479d-b8f6-e552d9fc16ee"
+            ]
+        },
+        {
+            "uuid": "12ce78a3-9386-4596-9abb-eb7c05bce3e3",
+            "question": "What did historians do in the absence of census figures?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "3b4ea0ca-e498-4529-96ea-371edd52d6d0"
+            ]
+        },
+        {
+            "uuid": "9a9624b6-309a-4890-8807-fb1bff0bc634",
+            "question": "What year did Roger de Tosny fail to accomplish what he set out to do?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "8be09b0c-90fc-4378-b64e-cf20a2a4430f"
+            ]
+        },
+        {
+            "uuid": "fabc64e8-155d-4929-ba0c-2aa7fedfb14e",
+            "question": "How were most city officials elected in the 1960s?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ddcc0fdd-7fa1-4bf8-a2a1-451ff27d8b6a"
+            ]
+        },
+        {
+            "uuid": "a76988b5-afb7-4b09-b64d-8607936f60a9",
+            "question": "What political group began to gain support following the corruption scandal?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ddcc0fdd-7fa1-4bf8-a2a1-451ff27d8b6a"
+            ]
+        },
+        {
+            "uuid": "9a9009df-ae5c-47d3-9128-f1a73e877f63",
+            "question": "What spurred increased support for government reform?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ddcc0fdd-7fa1-4bf8-a2a1-451ff27d8b6a"
+            ]
+        },
+        {
+            "uuid": "231f49ff-2e9e-4357-86c1-4f3809b19d0d",
+            "question": "How many auricles do most species have?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "4ef8c90b-a5cb-4b76-bbe8-d1b15fc048ae"
+            ]
+        },
+        {
+            "uuid": "3a1fb24c-49c2-406e-b5c6-c9d3e6265d56",
+            "question": "How would one describe the summers in Fresno?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "31c59685-a833-420e-8d9f-e6127728285f"
+            ]
+        },
+        {
+            "uuid": "7f2d6fa9-d776-4b45-9e62-ecd99c238868",
+            "question": "How much rain per year does Fresno get on average?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "31c59685-a833-420e-8d9f-e6127728285f"
+            ]
+        },
+        {
+            "uuid": "ba573b22-cd33-40f1-83b3-fd28e46d9bee",
+            "question": "Who was Iqbal a critic of?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "1705d17e-bf68-4edc-ba65-a6ebadcb6506"
+            ]
+        },
+        {
+            "uuid": "e30215f5-3a76-4337-97a1-b2b9acefbad6",
+            "question": "How many metropolitan areas does Southern California's population encompass?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c9b54af3-2af5-46c1-ad56-8fd340400e82"
+            ]
+        },
+        {
+            "uuid": "06f4ea0c-617d-44ea-88d4-c30541d60cfe",
+            "question": "How many people does the Greater Los Angeles Area have?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c9b54af3-2af5-46c1-ad56-8fd340400e82"
+            ]
+        },
+        {
+            "uuid": "fe63864a-2c1a-4142-a9a3-d80246e61001",
+            "question": "Evolution of what part of the immune system occurred in the evolutionary ancestor of jawed vertebrates?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c85623ea-4202-4f93-84c1-b6a52a5d64ee"
+            ]
+        },
+        {
+            "uuid": "f8580383-c574-424c-a25e-554137b870ea",
+            "question": "What type of ratios are used in geochronologic and thermochronologic studies?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "058ae7f4-3bc9-49f5-b6cd-fb35b64953d7"
+            ]
+        },
+        {
+            "uuid": "538bd0e7-b4cb-4e63-94af-d615fac01a11",
+            "question": "What is the law of thermodynamics associated with closed system heat exchange?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f1793e75-09cd-4db8-b2ad-615ffe1e33b9"
+            ]
+        },
+        {
+            "uuid": "abec9efe-f866-469b-8d7b-7c3bbb0a3a00",
+            "question": "The Los Angeles Rams are an example of what kind of sports team?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "2b4c4fb3-4ab1-440b-8fac-b63c26d2eb6c"
+            ]
+        },
+        {
+            "uuid": "8deeaf3a-5ae1-4339-b1a5-dac76edd9b23",
+            "question": "How many Muslims are in Greater London?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "8e37dadc-8b2f-4a1d-af9b-fb6f4088287b"
+            ]
+        },
+        {
+            "uuid": "849d0e67-70c4-4d01-bc53-3004f559190c",
+            "question": "The aim of the French competition law was to do what?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "9ef1d95f-bc21-4a6e-a1dc-7a44447e6810"
+            ]
+        },
+        {
+            "uuid": "e388a114-f7d3-4617-83e8-5b09903cd135",
+            "question": "Under which Directive did the EU harmonize restrictions on restrictions on marketing and advertising?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "9ef1d95f-bc21-4a6e-a1dc-7a44447e6810"
+            ]
+        },
+        {
+            "uuid": "2ad7ea0f-4077-466b-93e3-73db49578c45",
+            "question": "In which county does Jacksonville reside?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "02f061b1-81cb-471b-8ac6-7cad1882f4f9"
+            ]
+        },
+        {
+            "uuid": "9605be7f-4b29-4033-978e-ec763f52f777",
+            "question": "Who did the army siege belong to?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "14515a3f-6534-4d28-8792-a3e9a726033c"
+            ]
+        },
+        {
+            "uuid": "135213f3-2cba-44e3-8e30-7ebe0beccf7d",
+            "question": "How many graduate students does Harvard have?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "1825f748-9f9c-4992-a77f-f9ffd7f1ad8d"
+            ]
+        },
+        {
+            "uuid": "deb59ccc-daea-4da3-b029-ab76080194fa",
+            "question": "What long term agenda was the acts of plundering Muslim lands by the West?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "9fcd0883-e23e-4c4b-8f49-53a6872b4190"
+            ]
+        },
+        {
+            "uuid": "5297e61f-d3f0-4456-a700-99e5dbb322a6",
+            "question": "What type of valve is used by recent safety valves?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "e99dae1a-1416-489f-b960-5a7e4cd39085"
+            ]
+        },
+        {
+            "uuid": "9fe1f045-f224-4704-a297-de6beb6de3d4",
+            "question": "Who specifically does HT target to change the opinion of?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c2479264-dedd-49c3-9aab-cb40448cd543"
+            ]
+        },
+        {
+            "uuid": "3552cf8c-3a6a-48cc-9613-9d76a2f83553",
+            "question": "What was the attack on the British weakness?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "836cc475-1e01-4935-b131-c603181da2f8"
+            ]
+        },
+        {
+            "uuid": "6359cf98-7096-4220-bb55-b0f56ff02a7f",
+            "question": "What happened to the rate of deforestation in the Amazon region of Brazil between 2004 and 2014?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f4e94f96-a71d-498a-bf14-45332d5088b1"
+            ]
+        },
+        {
+            "uuid": "95a049e0-9710-49e4-a288-6de8daf8446f",
+            "question": "What battle outside Quebec City did British lose in 1760?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "fdac5fa7-645a-4b37-892a-e0add0030dfa"
+            ]
+        },
+        {
+            "uuid": "d072253e-a4d4-4241-b81e-3a94f24fcfe2",
+            "question": "In what body of water is the Harvard - Yale Regatta held?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "27e0b0c2-e530-4005-a12c-31fb4e92ad6a"
+            ]
+        },
+        {
+            "uuid": "3ef3d9a4-a83e-4b36-9734-ac4a0085dd33",
+            "question": "What law staes that forces are interactions between bodies?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "630105f6-15e2-4367-bb94-7b7134256623"
+            ]
+        },
+        {
+            "uuid": "4c1a1083-f35a-4ddf-8ab2-032c548196f0",
+            "question": "What kind of force does not exist under Newton's third law?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "630105f6-15e2-4367-bb94-7b7134256623"
+            ]
+        },
+        {
+            "uuid": "0ee1b8c6-6fdd-44d0-8735-d6468f507f6d",
+            "question": "What consortium was BSkyB excluded from?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "cdb1ff58-f4a4-43be-bb04-fbe9ef3cd043"
+            ]
+        },
+        {
+            "uuid": "9515e943-44e9-48d5-aae6-7e821504f0c3",
+            "question": "Compared to the rest of Florida, how does Jacksonville's Filipino population rank?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "bdde87fa-7d61-42a7-a517-71d36c252e3e"
+            ]
+        },
+        {
+            "uuid": "eed00840-a783-44ee-bf50-0ca2192c80c8",
+            "question": "For how long did the plague stick around?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "82396054-b215-47fd-9bb1-db08df0fd284"
+            ]
+        },
+        {
+            "uuid": "959530d6-9683-4c1a-8b95-3b3130688c23",
+            "question": "When was the concept of a social market economy introduced into EU law?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "9659fef0-004f-4ade-865c-ce53b7a050d7"
+            ]
+        },
+        {
+            "uuid": "bde9f91b-04cc-4860-b190-8ec197b386c1",
+            "question": "What do the Treaties generally limit?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "9659fef0-004f-4ade-865c-ce53b7a050d7"
+            ]
+        },
+        {
+            "uuid": "134f6272-508d-4b0d-8d6d-8a34a3493507",
+            "question": "When did these rebellions take place?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ffa558c6-1503-4430-a0f6-d129a2fbb215"
+            ]
+        },
+        {
+            "uuid": "3e561274-a9b2-408a-89f1-2b1050c5f318",
+            "question": "What is the fastest growing area in the pharmaceutical industry?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ee4a6ce1-cc39-4a34-af40-8f35af6bbf68"
+            ]
+        },
+        {
+            "uuid": "2fb9e7ff-387f-4de0-8c28-b5e206a39352",
+            "question": "What is the central business district of San Diego?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ea399300-3c0e-4c32-b6b7-c15132f4aeaf"
+            ]
+        },
+        {
+            "uuid": "c1b4880c-3424-49bd-af1d-4917a460988a",
+            "question": "When did the General Sejm make Warsaw it's permanent seat?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "ce782e3b-c182-4585-b7b9-ebde198b23f8"
+            ]
+        },
+        {
+            "uuid": "5d45dddf-9296-4f33-b90b-01aede902c1f",
+            "question": "What mechanism moves coal from a bunker to the firebox?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "a601da6e-e7ff-439f-ba4b-59b3f2d5f886"
+            ]
+        },
+        {
+            "uuid": "cc79343f-ed4f-47e9-ac1f-825f11e8c732",
+            "question": "When did Augustus die?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "5c28f4e9-9f4a-4125-900e-aa8de79115dd"
+            ]
+        },
+        {
+            "uuid": "4d0571c9-4b00-486e-b3da-16c8e676e542",
+            "question": "Where are the upper Rhine and upper Danube crossed?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "5c28f4e9-9f4a-4125-900e-aa8de79115dd"
+            ]
+        },
+        {
+            "uuid": "d1e72fcb-3f0e-4bbb-ba49-90673a004103",
+            "question": "Besides constant flooding, why else was there regulation of the Rhine?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d0a7d133-2999-4d31-9a0a-5b43bdd589f3"
+            ]
+        },
+        {
+            "uuid": "8b555ab7-8d83-4533-8b48-b68cc339c6aa",
+            "question": "Why was the Rhine regulated? ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d0a7d133-2999-4d31-9a0a-5b43bdd589f3"
+            ]
+        },
+        {
+            "uuid": "f2147248-388a-46b7-bf71-251c0893fc30",
+            "question": "How are forces classified with regard to push and pull strengt?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "de0e59db-232e-4241-a893-171931eb6d04"
+            ]
+        },
+        {
+            "uuid": "2794d43f-c357-45bc-9ac7-4bed776b5d84",
+            "question": "What goods were sold in a pharma?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "3a8f9b7a-ff0d-4655-bcc0-cf0b530c2987"
+            ]
+        },
+        {
+            "uuid": "fcab3f66-8df2-48cd-b623-db4c2fb8875e",
+            "question": "Where did one of Triton's daughters decide she wanted to hang out and stay?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "dcdcc93d-b2fc-4221-8cef-be7f1f296a82"
+            ]
+        },
+        {
+            "uuid": "1dc95e25-5b45-41cf-82f0-158622eafaff",
+            "question": "What was the English title of Polo's book?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "24e9fa88-93a5-4d58-a90e-c606ce982c3e"
+            ]
+        },
+        {
+            "uuid": "0ed180e4-13ce-48f3-85b3-ad1d25a648d9",
+            "question": "What is one of the reason that US production has been held responsible for recessions and lower economic growth?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d8f6123f-0a93-4953-b47a-34a6b0a6761e"
+            ]
+        },
+        {
+            "uuid": "a7bf3dc4-ac15-44c2-bcee-9497696d34b9",
+            "question": "What does stong force act upon?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "159b23be-7a51-4c6a-af6c-0ecbc4398c03"
+            ]
+        },
+        {
+            "uuid": "e86d96b5-65a7-4760-a4b7-ca7b462efafe",
+            "question": "Vaccination exploits what feature of the human immune system in order to be successful?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d0002dcf-b028-4ce9-b215-8bda363027bd"
+            ]
+        },
+        {
+            "uuid": "15d2c5d8-8635-4ac1-b900-37b3186d29c5",
+            "question": "What thesis specifies that a polynomial relationship exists within time complexities in a computational model? ",
+            "is_answerable": true,
+            "documents_uuids": [
+                "52d527c2-06ea-482e-ace4-0a4af62dfaf6"
+            ]
+        },
+        {
+            "uuid": "c6715e39-fbb2-4538-af41-e33e640c61f3",
+            "question": "What did John Paul II's visits in 1979 and 1983 encourage?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "5de4e868-27fe-4ad2-b699-f935856f5e4c"
+            ]
+        },
+        {
+            "uuid": "7f73aa92-190b-4fab-b463-deff01b5452e",
+            "question": "How cold does this region of Victoria get in the winner?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "cdefaeca-a59a-4650-8e01-364bbb7cea2f"
+            ]
+        },
+        {
+            "uuid": "bca71c7c-3c9d-43c6-93d8-8f7c206aeef2",
+            "question": "Did the European Court of Justice rule the defendant in the case of Commission v. Edith Cresson broke any laws?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "f4face81-1d58-4821-9c59-51cb1bf3ce27"
+            ]
+        },
+        {
+            "uuid": "bb2b36a8-bfb4-45bb-8b41-9d857aa91304",
+            "question": "Do adults or juveniles secretions luminesce brighter?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "947b403c-5333-43e1-8af0-1c9de587ba10"
+            ]
+        },
+        {
+            "uuid": "26feb743-1f5e-4679-91bf-9268a9f02293",
+            "question": "What lies between L and P that prevents a definitive determination of the relationship between L and P?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "9c2cb864-0f81-4c79-a6c8-9a9835a31eca"
+            ]
+        },
+        {
+            "uuid": "478dbfc2-444c-4ffb-81a9-af4d2444497f",
+            "question": "When was Victoria first settled?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "c787f1a1-f9bc-49c2-9456-580191925547"
+            ]
+        },
+        {
+            "uuid": "fd556a35-62e9-43da-b0d3-0471159ba37c",
+            "question": "Who does the wage gap between genders provide an advantage?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "134e0f12-505e-492f-89f3-92ea55e2d264"
+            ]
+        },
+        {
+            "uuid": "ac6dbf90-83e8-48ea-a635-59be48e0f7e9",
+            "question": "What rift system developed in the Alpine orogeny?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d01453c5-3a0a-4ffe-a7dd-e2d24cf87518"
+            ]
+        },
+        {
+            "uuid": "77623405-d4bc-4be5-b720-61c8ce3c022f",
+            "question": "The Rhine and what other river drained the northern flanks of the alps?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "d01453c5-3a0a-4ffe-a7dd-e2d24cf87518"
+            ]
+        },
+        {
+            "uuid": "2eb095ae-b42f-4672-abf2-347c764a9f9f",
+            "question": "What country has the most illiterate adults in the world?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "7be43de1-c49c-4a18-b9ce-14475131d1c6"
+            ]
+        },
+        {
+            "uuid": "f511ffb6-5fa3-480e-b93a-748acf957cfb",
+            "question": "What is the purpose of the ASER?",
+            "is_answerable": true,
+            "documents_uuids": [
+                "7be43de1-c49c-4a18-b9ce-14475131d1c6"
+            ]
+        }
+    ]
+}

@@ -2,6 +2,7 @@ version: "3.9"
 
 services:
   elasticsearch:
+    container_name: elasticsearch_service
     image: elasticsearch:7.17.3
     ports:
       - "9200:9200"
@@ -12,6 +13,7 @@ services:
       - ./wordnet:/usr/share/elasticsearch/config/synonyms
 
   kibana:
+    container_name: kibana_service
     image: kibana:7.17.3
     ports:
       - "5601:5601"
@@ -19,13 +21,10 @@ services:
       - elasticsearch
 
   jupyter:
+    container_name: jupyter_service
     build:
       context: ./
-      dockerfile: ./jupyter-docker/Dockerfile
-    user: root
-    environment:
-      GRANT_SUDO: "yes"
-      JUPYTER_TOKEN: "docker"
+      dockerfile: ./docker/Dockerfile
     ports:
       - 8888:8888
     volumes:

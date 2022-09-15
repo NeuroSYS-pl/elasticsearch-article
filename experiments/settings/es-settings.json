@@ -1,0 +1,3329 @@
+{
+    "analysis": {
+        "analyzer": {
+            "ngram_standard_analyzer": {
+              "type": "custom",
+              "tokenizer": "standard_tokenizer",
+              "filter": [
+                  "lowercase",
+                  "ngram"
+              ]
+            },
+            "2-3-ngram_standard_analyzer": {
+              "type": "custom",
+              "tokenizer": "standard_tokenizer",
+              "filter": [
+                  "lowercase",
+                  "2-3-grams"
+              ]
+            },
+            "stop-english_keyword-repeat_stemmer-porter2_remove_duplicates_standard_analyzer": {
+              "type": "custom",
+              "tokenizer": "standard_tokenizer",
+              "filter": [
+                "lowercase",
+                "stop-english_filter",
+                "keyword_repeat",
+                "stemmer-porter2_filter",
+                "remove_duplicates"
+              ]
+            },
+            "keyword-repeat_stemmer-porter2_remove_duplicates_standard_analyzer": {
+              "type": "custom",
+              "tokenizer": "standard_tokenizer",
+              "filter": [
+                "lowercase",
+                "keyword_repeat",
+                "stemmer-porter2_filter",
+                "remove_duplicates"
+              ]
+            },
+            "standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase"
+                ]
+            },
+            "stop-english_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter"
+                ]
+            },
+            "stemmer-english_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter"
+                ]
+            },
+            "stemmer-lightenglish_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter"
+                ]
+            },
+            "stemmer-lovins_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter"
+                ]
+            },
+            "stemmer-porter2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter"
+                ]
+            },
+            "shingle-1-2-2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "shingle-1-2-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "shingle-1-3-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "shingle-0-2-2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "shingle-0-2-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "shingle-0-3-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter"
+                ]
+            },
+            "stop-english_shingle-1-2-2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_shingle-1-2-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_shingle-1-3-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_shingle-0-2-2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_shingle-0-2-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_shingle-0-3-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stemmer-english_shingle-1-2-2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stemmer-english_shingle-1-2-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stemmer-english_shingle-1-3-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stemmer-english_shingle-0-2-2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stemmer-english_shingle-0-2-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stemmer-english_shingle-0-3-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-1-2-2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-1-2-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-1-3-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-0-2-2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-0-2-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-0-3-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-1-2-2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-1-2-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-1-3-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-0-2-2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-0-2-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-0-3-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-1-2-2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-1-2-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-1-3-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-0-2-2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-0-2-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-0-3-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-1-2-2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-1-2-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-1-3-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-0-2-2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-0-2-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-0-3-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-1-2-2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-1-2-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-1-3-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-0-2-2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-0-2-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-0-3-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-1-2-2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-1-2-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-1-3-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-0-2-2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-0-2-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-0-3-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-1-2-2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-1-2-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-1-3-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-0-2-2_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-0-2-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-0-3-3_standard_analyzer": {
+                "type": "custom",
+                "tokenizer": "standard_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase"
+                ]
+            },
+            "stop-english_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter"
+                ]
+            },
+            "stemmer-english_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter"
+                ]
+            },
+            "stemmer-lightenglish_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter"
+                ]
+            },
+            "stemmer-lovins_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter"
+                ]
+            },
+            "stemmer-porter2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter"
+                ]
+            },
+            "shingle-1-2-2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "shingle-1-2-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "shingle-1-3-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "shingle-0-2-2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "shingle-0-2-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "shingle-0-3-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter"
+                ]
+            },
+            "stop-english_shingle-1-2-2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_shingle-1-2-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_shingle-1-3-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_shingle-0-2-2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_shingle-0-2-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_shingle-0-3-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stemmer-english_shingle-1-2-2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stemmer-english_shingle-1-2-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stemmer-english_shingle-1-3-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stemmer-english_shingle-0-2-2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stemmer-english_shingle-0-2-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stemmer-english_shingle-0-3-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-1-2-2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-1-2-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-1-3-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-0-2-2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-0-2-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-0-3-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-1-2-2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-1-2-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-1-3-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-0-2-2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-0-2-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-0-3-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-1-2-2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-1-2-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-1-3-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-0-2-2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-0-2-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-0-3-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-1-2-2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-1-2-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-1-3-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-0-2-2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-0-2-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-0-3-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-1-2-2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-1-2-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-1-3-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-0-2-2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-0-2-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-0-3-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-1-2-2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-1-2-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-1-3-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-0-2-2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-0-2-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-0-3-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-1-2-2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-1-2-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-1-3-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-0-2-2_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-0-2-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-0-3-3_letter_analyzer": {
+                "type": "custom",
+                "tokenizer": "letter_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase"
+                ]
+            },
+            "stop-english_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter"
+                ]
+            },
+            "stemmer-english_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter"
+                ]
+            },
+            "stemmer-lightenglish_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter"
+                ]
+            },
+            "stemmer-lovins_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter"
+                ]
+            },
+            "stemmer-porter2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter"
+                ]
+            },
+            "shingle-1-2-2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "shingle-1-2-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "shingle-1-3-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "shingle-0-2-2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "shingle-0-2-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "shingle-0-3-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter"
+                ]
+            },
+            "stop-english_shingle-1-2-2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_shingle-1-2-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_shingle-1-3-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_shingle-0-2-2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_shingle-0-2-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_shingle-0-3-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stemmer-english_shingle-1-2-2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stemmer-english_shingle-1-2-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stemmer-english_shingle-1-3-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stemmer-english_shingle-0-2-2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stemmer-english_shingle-0-2-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stemmer-english_shingle-0-3-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-1-2-2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-1-2-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-1-3-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-0-2-2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-0-2-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-0-3-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-1-2-2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-1-2-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-1-3-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-0-2-2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-0-2-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-0-3-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-1-2-2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-1-2-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-1-3-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-0-2-2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-0-2-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-0-3-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-1-2-2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-1-2-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-1-3-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-0-2-2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-0-2-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-0-3-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-1-2-2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-1-2-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-1-3-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-0-2-2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-0-2-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-0-3-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-1-2-2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-1-2-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-1-3-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-0-2-2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-0-2-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-0-3-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-1-2-2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-1-2-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-1-3-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-0-2-2_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-0-2-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-0-3-3_whitespace_analyzer": {
+                "type": "custom",
+                "tokenizer": "whitespace_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase"
+                ]
+            },
+            "stop-english_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter"
+                ]
+            },
+            "stemmer-english_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter"
+                ]
+            },
+            "stemmer-lightenglish_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter"
+                ]
+            },
+            "stemmer-lovins_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter"
+                ]
+            },
+            "stemmer-porter2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter"
+                ]
+            },
+            "shingle-1-2-2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "shingle-1-2-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "shingle-1-3-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "shingle-0-2-2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "shingle-0-2-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "shingle-0-3-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter"
+                ]
+            },
+            "stop-english_shingle-1-2-2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_shingle-1-2-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_shingle-1-3-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_shingle-0-2-2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_shingle-0-2-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_shingle-0-3-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stemmer-english_shingle-1-2-2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stemmer-english_shingle-1-2-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stemmer-english_shingle-1-3-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stemmer-english_shingle-0-2-2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stemmer-english_shingle-0-2-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stemmer-english_shingle-0-3-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-1-2-2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-1-2-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-1-3-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-0-2-2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-0-2-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-0-3-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-1-2-2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-1-2-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-1-3-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-0-2-2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-0-2-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-0-3-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-1-2-2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-1-2-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-1-3-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-0-2-2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-0-2-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-0-3-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-1-2-2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-1-2-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-1-3-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-0-2-2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-0-2-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-0-3-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-1-2-2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-1-2-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-1-3-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-0-2-2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-0-2-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-0-3-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-1-2-2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-1-2-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-1-3-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-0-2-2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-0-2-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-0-3-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-1-2-2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-1-2-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-1-3-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-0-2-2_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-0-2-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-0-3-3_classic_analyzer": {
+                "type": "custom",
+                "tokenizer": "classic_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase"
+                ]
+            },
+            "stop-english_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter"
+                ]
+            },
+            "stemmer-english_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter"
+                ]
+            },
+            "stemmer-lightenglish_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter"
+                ]
+            },
+            "stemmer-lovins_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter"
+                ]
+            },
+            "stemmer-porter2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter"
+                ]
+            },
+            "shingle-1-2-2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "shingle-1-2-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "shingle-1-3-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "shingle-0-2-2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "shingle-0-2-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "shingle-0-3-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter"
+                ]
+            },
+            "stop-english_shingle-1-2-2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_shingle-1-2-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_shingle-1-3-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_shingle-0-2-2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_shingle-0-2-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_shingle-0-3-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stemmer-english_shingle-1-2-2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stemmer-english_shingle-1-2-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stemmer-english_shingle-1-3-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stemmer-english_shingle-0-2-2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stemmer-english_shingle-0-2-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stemmer-english_shingle-0-3-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-english_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-1-2-2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-1-2-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-1-3-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-0-2-2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-0-2-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stemmer-lightenglish_shingle-0-3-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-1-2-2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-1-2-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-1-3-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-0-2-2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-0-2-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stemmer-lovins_shingle-0-3-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-lovins_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-1-2-2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-1-2-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-1-3-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-0-2-2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-0-2-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stemmer-porter2_shingle-0-3-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stemmer-porter2_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-1-2-2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-1-2-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-1-3-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-0-2-2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-0-2-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-english_shingle-0-3-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-english_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-1-2-2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-1-2-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-1-3-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-0-2-2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-0-2-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lightenglish_shingle-0-3-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lightenglish_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-1-2-2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-1-2-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-1-3-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-0-2-2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-0-2-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-lovins_shingle-0-3-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-lovins_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-1-2-2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-1-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-1-2-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-1-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-1-3-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-1-3-3_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-0-2-2_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-0-2-2_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-0-2-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-0-2-3_filter"
+                ]
+            },
+            "stop-english_stemmer-porter2_shingle-0-3-3_pattern_analyzer": {
+                "type": "custom",
+                "tokenizer": "pattern_tokenizer",
+                "filter": [
+                    "lowercase",
+                    "stop-english_filter",
+                    "stemmer-porter2_filter",
+                    "shingle-0-3-3_filter"
+                ]
+            }
+        },
+        "filter": {
+            "2-3-grams": {
+              "type": "ngram",
+              "min_gram": 2,
+              "max_gram": 3
+            },
+            "stop-english_filter": {
+                "type": "stop",
+                "stopwords": "_english_"
+            },
+            "stemmer-english_filter": {
+                "type": "stemmer",
+                "language": "english"
+            },
+            "stemmer-lightenglish_filter": {
+                "type": "stemmer",
+                "language": "light_english"
+            },
+            "stemmer-lovins_filter": {
+                "type": "stemmer",
+                "language": "lovins"
+            },
+            "stemmer-porter2_filter": {
+                "type": "stemmer",
+                "language": "porter2"
+            },
+            "shingle-1-2-2_filter": {
+                "type": "shingle",
+                "output_unigrams": true,
+                "min_shingle_size": 2,
+                "max_shingle_size": 2
+            },
+            "shingle-1-2-3_filter": {
+                "type": "shingle",
+                "output_unigrams": true,
+                "min_shingle_size": 2,
+                "max_shingle_size": 3
+            },
+            "shingle-1-3-3_filter": {
+                "type": "shingle",
+                "output_unigrams": true,
+                "min_shingle_size": 3,
+                "max_shingle_size": 3
+            },
+            "shingle-0-2-2_filter": {
+                "type": "shingle",
+                "output_unigrams": false,
+                "min_shingle_size": 2,
+                "max_shingle_size": 2
+            },
+            "shingle-0-2-3_filter": {
+                "type": "shingle",
+                "output_unigrams": false,
+                "min_shingle_size": 2,
+                "max_shingle_size": 3
+            },
+            "shingle-0-3-3_filter": {
+                "type": "shingle",
+                "output_unigrams": false,
+                "min_shingle_size": 3,
+                "max_shingle_size": 3
+            }
+        },
+        "tokenizer": {
+            "standard_tokenizer": {
+                "type": "standard"
+            },
+            "letter_tokenizer": {
+                "type": "letter"
+            },
+            "whitespace_tokenizer": {
+                "type": "whitespace"
+            },
+            "classic_tokenizer": {
+                "type": "classic"
+            },
+            "pattern_tokenizer": {
+                "type": "pattern",
+                "pattern": "; "
+            }
+        }
+    }
+}

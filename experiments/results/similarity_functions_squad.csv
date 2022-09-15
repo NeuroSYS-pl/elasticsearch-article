@@ -1,0 +1,15 @@
+,similarity_function,analyzer,hits@10,hits@5,hits@3,hits@1
+0,bm25,stop-english_standard_analyzer,0.904,0.868,0.835,0.716
+1,bm25,stemmer-porter2_standard_analyzer,0.924,0.902,0.867,0.764
+2,dfr,stop-english_standard_analyzer,0.896,0.848,0.818,0.698
+3,dfr,stemmer-porter2_standard_analyzer,0.906,0.881,0.853,0.735
+4,dfi,stop-english_standard_analyzer,0.905,0.871,0.83,0.717
+5,dfi,stemmer-porter2_standard_analyzer,0.904,0.871,0.83,0.717
+6,ib,stop-english_standard_analyzer,0.904,0.871,0.83,0.717
+7,ib,stemmer-porter2_standard_analyzer,0.904,0.871,0.83,0.717
+8,lm_d,stop-english_standard_analyzer,0.887,0.839,0.793,0.656
+9,lm_d,stemmer-porter2_standard_analyzer,0.906,0.87,0.834,0.698
+10,lm_jm,stop-english_standard_analyzer,0.877,0.833,0.787,0.666
+11,lm_jm,stemmer-porter2_standard_analyzer,0.895,0.859,0.825,0.7
+12,tfidf,stop-english_standard_analyzer,0.882,0.839,0.8,0.65
+13,tfidf,stemmer-porter2_standard_analyzer,0.909,0.873,0.837,0.69

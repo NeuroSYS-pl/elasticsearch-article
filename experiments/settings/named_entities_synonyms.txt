@@ -1,0 +1,49 @@
+ViewModifiers, LayoutModifiers
+Interface, UI
+Foundation, Base
+Navigator, XGNavigator
+Divider, Splitter
+ViewModel, VM
+keyword, topic
+Core, ICoreUtil
+Image, XImage
+Apple, Company
+TODOs, tasks to do
+VStack, Vertical Stack
+enum, enumerator
+Collection, List
+Angle, Degree
+GeometryReader, GReader
+AnimatableModifier, AnimMod
+@State, State decorator
+iOS, iPhone OS
+Model, DataMod
+Piazza, XPiazza
+Grid, ZGrid
+Optional, Opt
+protocol, HTTP
+GCD, XGCD
+CG, XCG
+Shape, Size
+Array, List
+SwiftUI, Swift user interface
+ZStack, Z-axis stack
+ObservableObject, ObsObj
+CaseIterable, CasIter
+Data, XData
+@ViewBuilder, View Builder decorator
+Button, XClick
+ForEach, for loop
+XCode, environment
+HStack, horizontal stack
+Guidelines, tutorials
+SF, Science Fiction
+Text, TextBox
+ViewBuilder, builder of view
+MVVM, Model view view model
+GCP, XGCP
+Human, Man
+Intent, Request
+Mac, Macintosh
+Swift, language
+RoundedRectangle, Rect
